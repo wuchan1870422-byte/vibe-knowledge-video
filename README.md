@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/style-Vibe%E7%9F%A5%E8%AF%86%E5%A4%A7%E8%B5%8F-0A0A1E" alt="style">
   <img src="https://img.shields.io/badge/render-Canvas%202B%20%2B%20render(t)-C9A96A" alt="render">
-  <img src="https://img.shields.io/badge/audio-numpy%20synth%20BGM-76BPM" alt="audio">
+  <img src="https://img.shields.io/badge/audio-fixed%20BGM-C9A96A" alt="audio">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license">
 </p>
 
@@ -19,6 +19,8 @@
 > **What is this**: A complete AI-agent skill that reproduces the "Vibe Knowledge Awards" style of viral Douyin explainer videos — 100% code-generated (HTML Canvas + synthesized music), no voiceover, bilingual subtitles, cinematic history-document recreations. Say one sentence, get a finished MP4.
 
 ## 🆕 v2.0 / v2.1 更新：从"长得像"到"讲得懂"
+
+> **本仓库长期制作标准**：本地 Codex 与 Codex Cloud 开始视频项目时，先读根目录 [AGENTS.md](AGENTS.md) 与 [VIDEO_STYLE.md](VIDEO_STYLE.md)。固定主 BGM 为秋成《若如初见》（We Never Remix，社区昵称“开智小曲”），优先 0.9× Slow / Slowed。音频预留于 `assets/audio/default_bgm/`，缺失时等待用户提供合法文件，不生成或下载替代配乐。本文原片研究的 BPM 不代表该曲实测值。
 
 > 详细说明见 **[docs/CHANGELOG-v2.md](docs/CHANGELOG-v2.md)**。全部为增量新增，v1 用法完全不变。
 
@@ -52,7 +54,7 @@ v1 解决"怎么做出这种风格"，v2 解决"怎么让观众看懂"，v2.1 �
      ──── references/visual-grammar ────→ 分镜表（演法+转场+动效）
      ──── references/style-guide / alternate-worlds ────→ 视觉世界
      ──── assets/template.html + render-craft ────→ 代码实现
-     ──── scripts/render_frames + synth_bgm + build_video ────→ 渲染合成
+     ──── scripts/render_frames + 固定曲目混音 + build_video ────→ 渲染合成
      ──── qa_check + quality-gate + common-mistakes ────→ 自检修复
      ──── references/rework-scripts ────→ 不满意时的返工推进
      ──── docs/publish-guide ────→ 发布与数据复盘 ────→ 回到选题
@@ -91,7 +93,7 @@ v1 解决"怎么做出这种风格"，v2 解决"怎么让观众看懂"，v2.1 �
 |---|---|
 | 画幅 | 1920×1080 横屏，30fps |
 | 时长 | 2:00–2:45 |
-| 声音 | **无旁白配音**，纯器乐 BGM 76–78 BPM（沉静纪录片节奏，numpy 从零合成） |
+| 声音 | **无旁白配音**，固定主 BGM + 克制拟声音效，BPM 按实际文件分析（见 `VIDEO_STYLE.md`） |
 | 画面 | 深蓝黑底 `#0A0A1E`，五区布局（水印/顶标签/中央动画/注释带/双语字幕带） |
 | 密度 | 逐秒运动均值 3.97，静止秒 < 25% —— 画面必须一直在动 |
 | 严谨 | 结尾必有学术引用 + 免责声明，历史图示必标"示意图" |
@@ -152,9 +154,9 @@ cp -r vibe-knowledge-video /path/to/your/project/.codebuddy/skills/
 # 1. 逐帧渲染（页面需暴露 window.render(t) 纯时间函数）
 python3 scripts/render_frames.py index.html out_frames/ --fps 30 --duration 130
 
-# 2. 合成 77BPM 小调 BGM（织体分段对齐分镜章节）
-python3 scripts/synth_bgm.py bgm.wav --bpm 77 --duration 130 \
-  --sections "0,8,pad;8,30,piano;30,90,full;90,105,arp;105,120,piano;120,130,outro"
+# 2. 由用户提供的固定曲目准备 bgm.wav（版本分析、裁剪与混音见 VIDEO_STYLE.md）
+# 缺少合法音频即等待，不调用 synth_bgm.py 生成替代音乐。
+test -f bgm.wav || { echo '缺少固定曲目的合法音频，停止合成'; exit 1; }
 
 # 3. 帧序列 + BGM → MP4（-14 LUFS 响度，抖音标准）
 bash scripts/build_video.sh out_frames/ bgm.wav final.mp4

@@ -9,7 +9,8 @@
 
 ## 收到视频制作请求时，你必须这样做
 
-1. **先完整阅读 `SKILL.md`**——它是七步工作流的总纲（选题核实→剧本→分镜→用户确认→代码实现→渲染合成→自检交付），逐步执行，不可跳步。
+0. **先读根目录 `VIDEO_STYLE.md`，再完整阅读 `SKILL.md`**。这两份文件必须随 Git 仓库持久保存，Codex 本地与 Codex Cloud 均使用同一套规范；每个未来视频项目默认遵循，不依赖聊天记忆或临时环境配置。用户只提供科普主题时，自动套用既定风格和音乐，不要求用户重复选择。
+1. `SKILL.md` 是七步工作流的总纲（选题核实→剧本→分镜→用户确认→代码实现→渲染合成→自检交付），逐步执行，不可跳步。当前用户明确指令优先；本仓库长期风格以本文件和 `VIDEO_STYLE.md` 为准，其他参考文档中的旧合成音乐或固定 BPM 示例不得覆盖此规范。
 2. 需要风格细节时读 `references/`：
    - `references/visualization-design.md` — **（先读）讲解设计**：配图与讲解的分界、概念→形象的提问法、六种呈现动作、约 1/5 句子不配画面
    - `references/copywriting-rules.md` — 字幕稿文体：句量句长、句式工具箱、禁用清单、强调的克制规则
@@ -35,6 +36,14 @@
 7. **（v2.4）预览先行**：页面能跑的第一时间起预览给用户看，边写边纠偏，不要闷头做完再给。
 8. **（v2.4）保留用户手工改动**：发现代码在会话之外被用户改过时，不要覆盖——视为有意修改，或先询问。
 9. **（v2.4）Remotion 路线**：用户要求用 Remotion 实现时，读 `references/remotion-track.md`（方法论不变，工程对照与流程在那里）；渲染命令换成 `npx remotion render / still / --frames`。
+
+## 长期视频与音乐规范（本地 / Cloud 共用）
+
+- 16:9，1920×1080，30fps；深色背景、米白文字、低饱和暖金；无旁白，以动画和中英字幕叙事；交付真实可播放的 MP4。
+- 默认唯一主 BGM：**秋成《若如初见》（We Never Remix）**，社区昵称 **开智小曲**；优先 **0.9× Slow / Slowed** 版本。不得擅自替换为 AI 生成音乐、其他相似音乐或其他曲目。
+- 音频预留在 `assets/audio/default_bgm/`。缺文件时等待用户提供合法取得的音频，不从不明来源下载，不生成替代音乐，不把无声样片称为最终交付。可继续不依赖音频的事实核实与剧本工作。
+- BPM、拍号、第一拍和使用片段必须分析实际音频并记录，不能沿用旧模板的 76–78/77 BPM；Slowed 文件不得再自动减速一次。关键动作按实测拍点与乐句同步，保留克制、精致的拟声音效，细则见 `VIDEO_STYLE.md`。
+- 规范维护不触发渲染、重合成或已有成果覆盖，不停止正在进行的制作进程；已有项目的追溯调整须有用户明确指令。后续创作使用独立输出目录并保留手工改动。
 
 ## 环境准备（渲染合成前执行一次）
 
@@ -66,8 +75,8 @@ ffmpeg -version  # 验证可用
 
 ```bash
 python3 scripts/render_frames.py index.html out_frames/ --fps 30 --duration 130
-python3 scripts/synth_bgm.py bgm.wav --bpm 77 --duration 130 \
-  --sections "0,8,pad;8,30,piano;30,90,full;90,105,arp;105,120,piano;120,130,outro"
+# bgm.wav 必须由用户提供的固定曲目按 VIDEO_STYLE.md 裁剪/混音准备；缺失即等待，不合成替代音乐。
+test -f bgm.wav || { echo '缺少固定曲目的合法音频，停止合成'; exit 1; }
 bash scripts/build_video.sh out_frames/ bgm.wav final.mp4
 python3 scripts/qa_check.py final.mp4   # 六维自检，任何一项 < 8 分须修复重渲
 ```

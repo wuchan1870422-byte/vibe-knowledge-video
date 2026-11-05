@@ -9,7 +9,9 @@ updated: "2026-10-25"
 
 # Vibe 知识大赏 · AI 知识视频制作
 
-> **Goal**: 用纯代码（HTML Canvas + Python 合成音乐）制作"Vibe知识大赏"风格的电影感知识短视频——**无配音、全画面文字叙事、深空蓝黑底、历史文献再现、动画模拟推演、结尾学术引用**。成片规格 1920×1080 / 30fps / 2:00–2:45 / MP4。
+> **先读仓库根目录 `AGENTS.md` 与 `VIDEO_STYLE.md`**：本地 Codex 与 Codex Cloud 的所有未来项目共用长期规范。主 BGM 固定为秋成《若如初见》（We Never Remix，开智小曲），优先 0.9× Slow / Slowed；缺少合法音频则等待用户提供，不自动生成或替换音乐。BPM 按实际文件分析。
+>
+> **Goal**: 用纯代码（HTML Canvas 动画 + 固定曲目混音）制作"Vibe知识大赏"风格的电影感知识短视频——**无配音、全画面文字叙事、深空蓝黑底、历史文献再现、动画模拟推演、结尾学术引用**。成片规格 1920×1080 / 30fps / 2:00–2:45 / MP4。
 
 ## When to Use
 
@@ -38,7 +40,7 @@ updated: "2026-10-25"
 |---|---|
 | 画幅 | **1920×1080 横屏，30fps** |
 | 时长 | **2:00–2:45**（119–166 秒） |
-| 声音 | **无旁白配音**。纯器乐 BGM，**76–78 BPM** 沉静纪录片节奏 |
+| 声音 | **无旁白配音**。固定主 BGM 与克制拟声音效；版本、BPM 与同步按 `VIDEO_STYLE.md` |
 | 背景 | 深蓝黑 `#050510`–`#101028`，全片一套配色不换 |
 | 布局 | 左上角 @作者水印；顶部场景/时代标签带；中央动画；**y≈70% 画面注释**；**y≈85-91% 双语旁白字幕**（中文主句+英文斜体小字，每句都有） |
 | 标题卡 | **15-20 秒处落《片名》**：VIBE知识大赏 大写标签 + 金色衬线片名 + 副标题双语（Juno 系列标配） |
@@ -94,8 +96,8 @@ updated: "2026-10-25"
 # 逐帧渲染（Playwright 无头浏览器）
 python3 scripts/render_frames.py index.html out_frames/ --fps 30 --duration 140
 
-# 合成 BGM（76-78 BPM，numpy 合成，段落起伏对齐分镜）
-python3 scripts/synth_bgm.py bgm.wav --bpm 77 --duration 140 --sections storyboard.md
+# bgm.wav 必须来自用户提供的固定曲目，按 VIDEO_STYLE.md 分析、裁剪并准备；不得合成替代。
+test -f bgm.wav || { echo '缺少固定曲目的合法音频，停止合成'; exit 1; }
 
 # 合成 MP4（帧序列 + BGM，响度 -14 LUFS）
 bash scripts/build_video.sh out_frames/ bgm.wav final.mp4

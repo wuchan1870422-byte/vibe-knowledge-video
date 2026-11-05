@@ -4,6 +4,9 @@ out_frames/
 frames/
 
 # 音频/视频产物（大文件不入库）
+# 默认歌曲仅保留规范说明，防止未经再分发授权的素材被误提交。
+/assets/audio/default_bgm/*
+!/assets/audio/default_bgm/README.md
 *.wav
 *.mp4
 !docs/**/*.mp4
