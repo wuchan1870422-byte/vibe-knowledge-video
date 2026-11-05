@@ -1,0 +1,74 @@
+[
+  {
+    "time": 7.5,
+    "kind": "droplet resonance",
+    "gain": 0.07,
+    "pan": -0.2
+  },
+  {
+    "time": 21.466666666666665,
+    "kind": "droplet resonance",
+    "gain": 0.055,
+    "pan": -0.35
+  },
+  {
+    "time": 31.166666666666668,
+    "kind": "droplet resonance",
+    "gain": 0.045,
+    "pan": 0
+  },
+  {
+    "time": 55.8,
+    "kind": "droplet resonance",
+    "gain": 0.055,
+    "pan": -0.1
+  },
+  {
+    "time": 75.23333333333333,
+    "kind": "droplet resonance",
+    "gain": 0.065,
+    "pan": 0.25
+  },
+  {
+    "time": 108.53333333333333,
+    "kind": "droplet resonance",
+    "gain": 0.045,
+    "pan": 0
+  },
+  {
+    "time": 10.0,
+    "kind": "water movement",
+    "gain": 0.035,
+    "pan": 0
+  },
+  {
+    "time": 29.7,
+    "kind": "water movement",
+    "gain": 0.025,
+    "pan": -0.1
+  },
+  {
+    "time": 55.5,
+    "kind": "water movement",
+    "gain": 0.035,
+    "pan": -0.2
+  },
+  {
+    "time": 75.0,
+    "kind": "water movement",
+    "gain": 0.055,
+    "pan": 0.2
+  },
+  {
+    "time": 99.7,
+    "kind": "water movement",
+    "gain": 0.03,
+    "pan": 0
+  },
+  {
+    "time": 69.9,
+    "kind": "quiet contact click",
+    "gain": 0.024,
+    "pan": 0.15
+  }
+]

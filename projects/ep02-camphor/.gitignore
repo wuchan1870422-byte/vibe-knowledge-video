@@ -1,0 +1,13 @@
+# 本期原件、缓存与大输出保留在交付包/当前工作区，源码中记录重建入口。
+/render/
+/delivery/
+/review/*.json
+/review/*/
+/fonts/*.ttc
+/fonts/*.ttf
+/water/
+/audio/*.wav
+/audio/*.m4a
+/audio/*measure.log
+/research/CBoat1-*
+/research/github-search.html
