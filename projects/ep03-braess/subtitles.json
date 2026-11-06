@@ -1,27 +1,21 @@
 [
   [
     0.6,
-    4.1,
-    "多一条近路，反而更堵？",
-    "One more shortcut. More congestion?"
+    3.9,
+    "4000辆车，都要从起点开到终点。",
+    "4,000 cars all need to reach the same destination."
   ],
   [
-    4.3,
+    4.2,
     7.7,
-    "同样4000辆车，65分钟变80？",
-    "The same 4,000 cars: from 65 to 80 minutes?"
+    "多修一条近路，能更快到达吗？",
+    "Would adding a shortcut get everyone there sooner?"
   ],
   [
-    8.3,
-    11.6,
-    "先看修路之前。",
-    "First, before the shortcut."
-  ],
-  [
-    11.9,
+    12,
     15.6,
-    "走这段路的车越多，耗时越长。",
-    "More cars on a variable road mean more time."
+    "先看原路：车越多，某些路越慢。",
+    "First, the original roads: some get slower as more cars use them."
   ],
   [
     16,

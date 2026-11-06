@@ -13,7 +13,7 @@ async def capture(port,start,end,output,stills=None):
   page=await browser.new_page(viewport={'width':1920,'height':1080},device_scale_factor=1)
   errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
   await page.goto(f'http://127.0.0.1:{port}/index.html');await page.evaluate('document.fonts.ready');await page.evaluate('window.assetsReady');await page.evaluate('window.__RENDER_MODE__=true')
-  await page.evaluate('''()=>{for(const b of [8,16,20,24,31.133333333333,35,43,65,69,74,79,83,90.5,96.4,110]){for(let k=-14;k<=14;k++)window.render(b+k/30)}return true}''')
+  await page.evaluate('''()=>{for(const b of [4.1,7.9,8,12,16,20,24,31.133333333333,35,43,65,69,74,79,83,90.5,96.4,110]){for(let k=-14;k<=14;k++)window.render(b+k/30)}return true}''')
   print(output,'all transition boundary samples passed',flush=True)
   if stills:
    from PIL import Image,ImageDraw

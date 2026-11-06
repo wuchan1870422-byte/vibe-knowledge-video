@@ -1,13 +1,12 @@
-# 第三期字幕稿
+# 第三期字幕稿 · 开场修订版
 
-118秒；中文主句+英文对照，无旁白。用户给定完整模型并要求直接完成，本期不设置中途确认关卡。
+118秒；先交代交通场景与本期题目，再展开模型；无旁白。8–11.8秒为清楚展示的双语片名，不叠加重复字幕。
 
 | 起止秒 | 中文 | English |
 | --- | --- | --- |
-| 0.6–4.1 | 多一条近路，反而更堵？ | One more shortcut. More congestion? |
-| 4.3–7.7 | 同样4000辆车，65分钟变80？ | The same 4,000 cars: from 65 to 80 minutes? |
-| 8.3–11.6 | 先看修路之前。 | First, before the shortcut. |
-| 11.9–15.6 | 走这段路的车越多，耗时越长。 | More cars on a variable road mean more time. |
+| 0.6–3.9 | 4000辆车，都要从起点开到终点。 | 4,000 cars all need to reach the same destination. |
+| 4.2–7.7 | 多修一条近路，能更快到达吗？ | Would adding a shortcut get everyone there sooner? |
+| 12–15.6 | 先看原路：车越多，某些路越慢。 | First, the original roads: some get slower as more cars use them. |
 | 16–19.4 | 上下两条路线，各走2000辆。 | Two routes, with 2,000 cars on each. |
 | 20–23.5 | 上路：20加45，共65分钟。 | Upper route: 20 + 45 = 65 minutes. |
 | 24–27.5 | 下路：45加20，也是65分钟。 | Lower route: 45 + 20 = 65 minutes. |

@@ -29,103 +29,110 @@
     {
       "start_s": 0,
       "rms": 0.14241,
-      "video_start_s": -55
+      "video_start_s": 0
     },
     {
       "start_s": 10,
       "rms": 0.13635,
-      "video_start_s": -45
+      "video_start_s": 10
     },
     {
       "start_s": 20,
       "rms": 0.18957,
-      "video_start_s": -35
+      "video_start_s": 20
     },
     {
       "start_s": 30,
       "rms": 0.18629,
-      "video_start_s": -25
+      "video_start_s": 30
     },
     {
       "start_s": 40,
       "rms": 0.1797,
-      "video_start_s": -15
+      "video_start_s": 40
     },
     {
       "start_s": 50,
       "rms": 0.18421,
-      "video_start_s": -5
+      "video_start_s": 50
     },
     {
       "start_s": 60,
       "rms": 0.18155,
-      "video_start_s": 5
+      "video_start_s": 60
     },
     {
       "start_s": 70,
       "rms": 0.18698,
-      "video_start_s": 15
+      "video_start_s": 70
     },
     {
       "start_s": 80,
       "rms": 0.17771,
-      "video_start_s": 25
+      "video_start_s": 80
     },
     {
       "start_s": 90,
       "rms": 0.15308,
-      "video_start_s": 35
+      "video_start_s": 90
     },
     {
       "start_s": 100,
       "rms": 0.16363,
-      "video_start_s": 45
+      "video_start_s": 100
     },
     {
       "start_s": 110,
       "rms": 0.18232,
-      "video_start_s": 55
+      "video_start_s": 110
     },
     {
       "start_s": 120,
       "rms": 0.18998,
-      "video_start_s": 65
+      "video_start_s": 120
     },
     {
       "start_s": 130,
       "rms": 0.19198,
-      "video_start_s": 75
+      "video_start_s": 130
     },
     {
       "start_s": 140,
       "rms": 0.20327,
-      "video_start_s": 85
+      "video_start_s": 140
     },
     {
       "start_s": 150,
       "rms": 0.20503,
-      "video_start_s": 95
+      "video_start_s": 150
     },
     {
       "start_s": 160,
       "rms": 0.18366,
-      "video_start_s": 105
+      "video_start_s": 160
     },
     {
       "start_s": 170,
       "rms": 0.09379,
-      "video_start_s": 115
+      "video_start_s": 170
     },
     {
       "start_s": 180,
       "rms": 0.03591,
-      "video_start_s": 125
+      "video_start_s": 180
     }
   ],
-  "source_in_s": 55,
+  "source_in_s": 0,
   "video_in_s": 0,
   "human_listening_verified": false,
-  "source_out_s": 173,
-  "rms_loudest_video_second": 103,
-  "video_duration_s": 118
+  "source_out_s": 118,
+  "rms_loudest_video_second": null,
+  "video_duration_s": 118,
+  "revision": "opening-v2",
+  "intro_gain_envelope": {
+    "0_to_4_s": 0.15,
+    "12_s": 0.32,
+    "24_s": 0.7,
+    "32_s_and_later": 1.0
+  }
 }

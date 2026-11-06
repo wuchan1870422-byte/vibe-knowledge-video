@@ -52,7 +52,7 @@ function path(route,col,a=1,width=5){c.save();c.globalAlpha*=a;c.strokeStyle=col
 function road(key,t,s){
  const [p,q]=EDGES[key].map(k=>NODES[k]);const dx=q[0]-p[0],dy=q[1]-p[1],ang=Math.atan2(dy,dx),nx=-Math.sin(ang),ny=Math.cos(ang);
  const variable=key==='SA'||key==='BT',isNew=key==='AB';
- if(isNew&&t<8){if(t>1){c.save();c.globalAlpha=env(t,1,8,.6);line(p,q,SHORT,8,.8);arrow(960,420,0,80,SHORT,3,.9);c.restore()}return}
+ if(isNew&&t<12){if(t>=4.1){c.save();c.globalAlpha=env(t,4.1,11.8,.6);line(p,[p[0],mix(p[1],q[1],ramp(t,4.1,5.5))],SHORT,7,.8);if(t>5.5)arrow(960,420,0,80,SHORT,3,.9);c.restore()}return}
  if(isNew&&t<EVENTS.open)return;
  const openAlpha=isNew? (s.open?ramp(t,EVENTS.open,EVENTS.open+.8):.22):1;
  const col=isNew?SHORT:variable?GOLD:'#68727a';
@@ -67,6 +67,11 @@ function road(key,t,s){
  c.restore();
 }
 function car(route,p,t,id,alpha=1,col=COLORS[route],large=false){const [x,y,ang]=point(route,p);c.save();c.globalAlpha*=alpha;c.translate(x,y);c.rotate(ang);c.shadowColor=col;c.shadowBlur=large?12:5;c.fillStyle=col;roundRect(-6,-3,large?19:12,large?8:6,2);c.fill();c.shadowBlur=0;c.fillStyle='#141a20';c.fillRect(-2,-2,3,4);c.restore()}
+function introCar(route,p,col){
+ const [x,y,a]=point(route,p);c.save();c.globalAlpha=1-ramp(p,.96,1);c.translate(x,y);c.rotate(a);
+ c.fillStyle='#040609';for(const xx of [-20,13]){c.fillRect(xx,-18,12,6);c.fillRect(xx,12,12,6)}
+ c.fillStyle=col;roundRect(-32,-14,64,28,8);c.fill();c.fillStyle='#1a2630';roundRect(-16,-10,23,20,3);c.fill();c.fillStyle='#f2e8ce';c.fillRect(25,-10,4,6);c.fillRect(25,4,4,6);c.restore();
+}
 function vehicles(t,s){
  const frac=s.visualFrac;const carTime=t<8?t*.7:t;
  for(let i=0;i<80;i++){
@@ -80,7 +85,7 @@ function vehicles(t,s){
 }
 function node(k){const [x,y]=NODES[k];glow(x,y,65,65,.13);c.save();c.beginPath();c.arc(x,y,40,0,Math.PI*2);c.fillStyle='#10151c';c.fill();c.strokeStyle=GOLD;c.lineWidth=2;c.stroke();c.restore();text(k,x,y+1,50,INK,'center',true)}
 function plate(key,t,s){
- if(t<8)return;const variable=key==='SA'||key==='BT';
+ if(t<12)return;const variable=key==='SA'||key==='BT';
  const pos={SA:[500,238],AT:[1420,238],SB:[500,675],BT:[1420,675]};const [x,y]=pos[key];
  c.save();c.fillStyle='rgba(7,11,17,.92)';roundRect(x-195,y-68,390,140,10);c.fill();line([x-155,y+70],[x+155,y+70],variable?GOLD:'#63717a',1.5,.5);
  if(t>=83&&t<90.5&&variable){text('重新分流',x,y-13,49,GOLD,'center',true);text('稳定后再计时',x,y+43,32,DIM)}
@@ -105,11 +110,25 @@ function equation(prefix,parts,result,col=INK,options={}){
 function traceEdge(key,k,col){const [a,b]=EDGES[key].map(n=>NODES[n]);line(a,[mix(a[0],b[0],clamp(k)),mix(a[1],b[1],clamp(k))],col,6,.9);}
 function spotlight(route,t,a=.8){path(route,COLORS[route],a,6);const p=(t*.18)%1;const [x,y]=point(route,p);glow(x,y,55,42,.15)}
 function narrative(t,s){
- if(t<8){
-  text('结果预告',960,305,36,DIM);text(fmt(KEY.before),765,435,122,INK,'center',true);arrow(905,435,110,0,GOLD,4,1);text(fmt(KEY.after),1160,435,122,SHORT,'center',true);text('分钟',1305,445,39,DIM);text('同一批车辆，只多了一条近路',960,570,41,INK);return;
+ if(t<4.1){
+  text('修路，真的能缓解拥堵吗？',960,327,66,INK,'center',false,true);
+  text('4000辆车，前往同一个终点',960,525,47,DIM);
+  return;
+ }
+ if(t<7.9){
+  text('假如，多修一条近路',960,358,68,INK,'center',false,true);
+  text('大家会更快到达吗？',960,535,54,GOLD);
+  return;
+ }
+ if(t<12){
+  c.save();c.globalAlpha=env(t,7.9,12,.35);c.fillStyle='rgba(6,9,14,.94)';roundRect(315,300,1290,330,14);c.fill();
+  text('多修一条路，',960,365,78,INK,'center',false,true);
+  text('为什么大家反而更堵？',960,475,78,GOLD,'center',false,true);
+  text('Can one more road make everyone slower?',960,585,32,DIM);
+  c.restore();return;
  }
  if(t<15.7){
-  text('两种道路，两种计时方式',960,410,47,INK,'center',false,true);
+  text('先看修路之前',960,410,51,INK,'center',false,true);
   text('暖金实线：车越多越慢',960,478,36,GOLD);text('灰蓝双线：始终45分钟',960,534,36,COOL);
   text('x：本批4000辆中，选择经过该路段的车辆数',960,805,35,DIM);return;
  }
@@ -163,11 +182,13 @@ function drawScene(t){
  c.clearRect(0,0,W,H);const s=stateAt(t);
  text('总需求 4000辆',150,65,37,DIM,'left');
  for(const key of ['SA','AT','SB','BT','AB'])road(key,t,s);
- if(t>=8)vehicles(t,s);
+ vehicles(t,s);
+ if(t<7.9){for(let i=0;i<4;i++)introCar(i%2?'upper':'lower',(t*.10+i*.235)%1,i%2?GOLD:COOL)}
  // 关键演示路径在车辆之下/节点之上以外层描边强调，节点始终固定。
  narrative(t,s);
  for(const k of ['S','A','B','T'])node(k);
- if(t>=8)for(const key of ['SA','AT','SB','BT'])plate(key,t,s);
+ if(t<12){text('起点',220,537,48,DIM);text('终点',1700,537,48,DIM)}
+ if(t>=12)for(const key of ['SA','AT','SB','BT'])plate(key,t,s);
  smallNewLabel(t,s);
  if(t>=83&&t<91){c.save();c.globalAlpha=1-ramp(t,89,91);text('车流重新分配中',960,530,37,DIM);c.restore()}
 }
@@ -176,10 +197,10 @@ function drawOverlay(t){
  const sub=SUBTITLES.find(s=>t>=s[0]&&t<s[1]);
  if(sub){const a=env(t,sub[0],sub[1],.24);$('subtitle').textContent=sub[2];$('subtitle-en').textContent=sub[3];$('subtitle').style.opacity=a;$('subtitle-en').style.opacity=a*.96}
  else{$('subtitle').textContent='';$('subtitle-en').textContent=''}
- const sec=t<8?'':t<16?'01　两种计时方式':t<31.133333?'02　修路之前':t<43?'03　近路为什么诱人':t<65?'04　越来越多人改道':t<83?'05　更慢，却不愿单独离开':t<91?'06　把近路关掉':t<110?'07　个人选择与集体结果':'';
+ const sec=t<12?'':t<16?'01　两种计时方式':t<31.133333?'02　修路之前':t<43?'03　近路为什么诱人':t<65?'04　越来越多人改道':t<83?'05　更慢，却不愿单独离开':t<91?'06　把近路关掉':t<110?'07　个人选择与集体结果':'';
  $('toplabel').textContent=sec;
  $('titlecard').style.display='none';
- $('annotation').textContent=t<8?'':t<16?'两条可变耗时道路，分别用各自的车流量计算':t<31.133?'每个车符号≈50辆 · 动画速度不代表实际车速':t<43?'A→B单向 · ≈0分钟为理想化假设':t<91?'车流迁移为示意 · 总需求始终4000辆':'用户指定的理想化路网模型 · 不推论所有道路';
+ $('annotation').textContent=t<12?'':t<16?'两条可变耗时道路，分别用各自的车流量计算':t<31.133?'每个车符号≈50辆 · 动画速度不代表实际车速':t<43?'A→B单向 · ≈0分钟为理想化假设':t<91?'车流迁移为示意 · 总需求始终4000辆':'用户指定的理想化路网模型 · 不推论所有道路';
  $('stage').style.opacity=1-ramp(t,117.7,118);
 }
 window.assetsReady=Promise.resolve(true);

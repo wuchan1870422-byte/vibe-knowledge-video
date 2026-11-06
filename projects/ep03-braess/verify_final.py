@@ -27,7 +27,7 @@ assert len(frames)==118
 assert all(m['content_bright_ratio']>.001 for m in metrics[:-1]),'unexpected empty second'
 (R/'review/frame_metrics.json').write_text(json.dumps(metrics,indent=2))
 # 取最终编码文件的关键静帧，不把HTML截图冒充成片抽检。
-times=[2.5,12.5,18,21.5,25.5,33,38,49,58,66.5,71,76,85,91,98,115]
+times=[1.2,3,5.5,8.8,10.5,12.8,21.5,38,58,66.5,71,76,85,91,98,115]
 out=R/'review/final_frames';out.mkdir(exist_ok=True)
 for t in times:run(['ffmpeg','-y','-v','error','-ss',str(t),'-i',str(F),'-frames:v','1',str(out/f'{t:06.2f}.jpg')])
 im=Image.new('RGB',(1920,4*288),(5,8,13));d=ImageDraw.Draw(im)

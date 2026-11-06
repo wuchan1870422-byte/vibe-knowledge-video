@@ -1,11 +1,5 @@
 [
   {
-    "time": 2.1,
-    "kind": "soft route-switch contact",
-    "gain": 0.025,
-    "pan": 0
-  },
-  {
     "time": 16.066666666666666,
     "kind": "soft route-switch contact",
     "gain": 0.022,

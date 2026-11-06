@@ -5,12 +5,14 @@ R=Path(__file__).resolve().parent;REPO=R.parents[1]
 OUT=Path(os.environ.get('VIBE_DELIVERY_DIR','/workspace/deliveries/ep03'));OUT.mkdir(parents=True,exist_ok=True)
 files={'ep03-braess-final.mp4':R/'delivery/final.mp4','ep03-cover-portrait.jpg':R/'delivery/cover-portrait.jpg','ep03-cover-portrait.png':R/'delivery/cover-portrait.png','ep03-cover-profile.jpg':R/'delivery/cover-profile.jpg','ep03-quality-report.md':R/'review/QUALITY_REPORT.md','ep03-keyframes.jpg':R/'review/final_sheet.jpg','ep03-picture-only.mp4':R/'render/picture.mp4'}
 for name,src in files.items():shutil.copy2(src,OUT/name)
+shutil.copy2(R/'delivery/final.mp4',R/'delivery/final-v2.mp4')
 source=OUT/'ep03-braess-source.zip'
 with zipfile.ZipFile(source,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=5) as z:
  for f in R.rglob('*'):
   if not f.is_file():continue
   rel=f.relative_to(R)
   if rel.parts[0] in {'render','delivery'}:continue
+  if rel.parts[:2]==('audio','v1'):continue
   if '__pycache__' in rel.parts:continue
   if rel.parts[0]=='review' and (len(rel.parts)>2 or rel.suffix not in {'.md','.json','.jpg','.log'}):continue
   if rel.parts[0]=='audio' and rel.suffix in {'.wav','.m4a','.tmp'}:continue
@@ -22,6 +24,7 @@ with zipfile.ZipFile(source,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=5
 with zipfile.ZipFile(source) as src,zipfile.ZipFile(R/'delivery/source.zip','w',compression=zipfile.ZIP_DEFLATED,compresslevel=5) as dst:
  for n in src.namelist():
   if not n.lower().endswith('.mp3'):dst.writestr(n,src.read(n))
+shutil.copy2(R/'delivery/source.zip',R/'delivery/source-v2.zip')
 with zipfile.ZipFile(OUT/'ep03-audio-stems.zip','w',compression=zipfile.ZIP_DEFLATED,compresslevel=4) as z:
  for name in ['bgm_edit.wav','sfx.wav','final_mix.wav','final_mix.m4a','audio_analysis.md','analysis.json','events.json','beat_map.csv']:
   z.write(R/'audio'/name,name)

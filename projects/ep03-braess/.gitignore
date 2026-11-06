@@ -11,3 +11,6 @@
 /audio/*measure.log
 /research/CBoat1-*
 /research/github-search.html
+
+# 本地旧混音备份不进入公开源码
+/audio/v1/
