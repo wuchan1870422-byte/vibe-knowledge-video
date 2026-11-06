@@ -203,7 +203,7 @@ window.renderCover=function(height=1920){
  const p={S:[135,1000],A:[540,800],B:[540,1200],T:[945,1000]};
  for(const [u,v] of [['S','A'],['A','T'],['S','B'],['B','T']]){line(p[u],p[v],'#222b33',20,1);line(p[u],p[v],u==='S'&&v==='A'||u==='B'?GOLD:COOL,3,.8)}
  line(p.A,p.B,SHORT,9,.85);arrow(540,950,0,75,SHORT,4,1);text('新近路',650,990,39,SHORT);
- 
+
  for(let i=0;i<24;i++){const route=i%2?['S','A','B','T']:['S','A','T'];let k=(i*.618)%1;let edge=Math.min(route.length-2,Math.floor(k*(route.length-1))),f=(k*(route.length-1))%1;const a=p[route[edge]],b=p[route[edge+1]];glow(mix(a[0],b[0],f),mix(a[1],b[1],f),12,12,.3);c.fillStyle=SHORT;c.beginPath();c.arc(mix(a[0],b[0],f),mix(a[1],b[1],f),5,0,6.283);c.fill()}
  for(const k of Object.keys(p)){const [x,y]=p[k];c.beginPath();c.arc(x,y,34,0,6.283);c.fillStyle='#0b1119';c.fill();c.strokeStyle=GOLD;c.lineWidth=2;c.stroke();text(k,x,y,41,INK,'center',true)}
  text(fmt(KEY.before),300,1415,142,INK,'center',true);arrow(470,1415,140,0,GOLD,5,1);text(fmt(KEY.after),780,1415,142,SHORT,'center',true);text('分钟',540,1525,43,DIM);text('布雷斯悖论',540,1650,49,INK,'center',false,true);c.restore();
