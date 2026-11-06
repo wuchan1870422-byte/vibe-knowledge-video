@@ -1,0 +1,3 @@
+round1 all transition boundary samples passed
+round1 [{'name': '3200 simulated agents', 'ok': True}, {'name': 'cache sample count and binary lengths', 'ok': True}, {'name': 'no global goal or assigned trajectories', 'ok': True}, {'name': 'observed angular bound', 'ok': True}, {'name': 'observed acceleration bound', 'ok': True}, {'name': 'no sphere penetration', 'ok': True}, {'name': 'subtitles fit 1760px', 'ok': True}, {'name': 'reading time >=2.5s', 'ok': True}, {'name': 'no fixed watermark', 'ok': True}, {'name': 'only actual local neighbors highlighted/linked', 'ok': True}]
+round1 deterministic screenshot b26b60cfcb51c0ad7ddd2d48e004fd93db7cc51a2f6de1988956544663f1c3e2

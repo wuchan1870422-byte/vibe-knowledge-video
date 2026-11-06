@@ -1,0 +1,9 @@
+{
+  "filter": "alimiter",
+  "limit": 0.22,
+  "attack_ms": 5,
+  "release_ms": 100,
+  "auto_makeup": false,
+  "latency_compensated": true,
+  "reason": "preserve narrative envelope while reserving mono fold-down peak headroom"
+}

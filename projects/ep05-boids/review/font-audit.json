@@ -1,0 +1,30 @@
+{
+  "sans.ttc": {
+    "family": "Noto Sans CJK JP",
+    "characters_checked": 338,
+    "missing": [],
+    "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+    "identical_to_ep04": true
+  },
+  "serif.ttc": {
+    "family": "Noto Serif CJK JP",
+    "characters_checked": 338,
+    "missing": [],
+    "sha256": "5d9c31a059600193c9d7968a998bde886ccdc77e934006ad243b41794c496a7d",
+    "identical_to_ep04": true
+  },
+  "sans-bold.ttc": {
+    "family": "Noto Sans CJK JP",
+    "characters_checked": 338,
+    "missing": [],
+    "sha256": "faa5f3656a78b2e2d450d27fe8382c778bc2b6bb5ea29c986664a6a435056ceb",
+    "identical_to_ep04": true
+  },
+  "latin-italic.ttf": {
+    "family": "DejaVu Serif",
+    "characters_checked": 72,
+    "missing": [],
+    "sha256": "d843bf414381dd64b89e6c7c954075657b74168521f02b30e11d308558eda1d2",
+    "identical_to_ep04": true
+  }
+}

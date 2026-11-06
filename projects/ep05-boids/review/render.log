@@ -1,0 +1,36 @@
+part_02.mp4 all transition boundary samples passed
+part_01.mp4 all transition boundary samples passed
+part_00.mp4 all transition boundary samples passed
+part_01.mp4: 0/1250
+part_02.mp4: 0/1250
+part_00.mp4: 0/1250
+part_01.mp4: 150/1250
+part_00.mp4: 150/1250
+part_02.mp4: 150/1250
+part_01.mp4: 300/1250
+part_01.mp4: 450/1250
+part_00.mp4: 300/1250
+part_02.mp4: 300/1250
+part_01.mp4: 600/1250
+part_01.mp4: 750/1250
+part_00.mp4: 450/1250
+part_02.mp4: 450/1250
+part_01.mp4: 900/1250
+part_00.mp4: 600/1250
+part_02.mp4: 600/1250
+part_01.mp4: 1050/1250
+part_00.mp4: 750/1250
+part_02.mp4: 750/1250
+part_00.mp4: 900/1250
+part_01.mp4: 1200/1250
+part_01.mp4 [{'name': '3200 simulated agents', 'ok': True}, {'name': 'cache sample count and binary lengths', 'ok': True}, {'name': 'no global goal or assigned trajectories', 'ok': True}, {'name': 'observed angular bound', 'ok': True}, {'name': 'observed acceleration bound', 'ok': True}, {'name': 'no sphere penetration', 'ok': True}, {'name': 'subtitles fit 1760px', 'ok': True}, {'name': 'reading time >=2.5s', 'ok': True}, {'name': 'no fixed watermark', 'ok': True}, {'name': 'only actual local neighbors highlighted/linked', 'ok': True}]
+part_01.mp4 deterministic screenshot b3150834723b6d7f06483146190cb941a8914ec078d2fbe797d56b3e1a764be0
+part_00.mp4: 1050/1250
+part_02.mp4: 900/1250
+part_00.mp4: 1200/1250
+part_00.mp4 [{'name': '3200 simulated agents', 'ok': True}, {'name': 'cache sample count and binary lengths', 'ok': True}, {'name': 'no global goal or assigned trajectories', 'ok': True}, {'name': 'observed angular bound', 'ok': True}, {'name': 'observed acceleration bound', 'ok': True}, {'name': 'no sphere penetration', 'ok': True}, {'name': 'subtitles fit 1760px', 'ok': True}, {'name': 'reading time >=2.5s', 'ok': True}, {'name': 'no fixed watermark', 'ok': True}, {'name': 'only actual local neighbors highlighted/linked', 'ok': True}]
+part_00.mp4 deterministic screenshot b3150834723b6d7f06483146190cb941a8914ec078d2fbe797d56b3e1a764be0
+part_02.mp4: 1050/1250
+part_02.mp4: 1200/1250
+part_02.mp4 [{'name': '3200 simulated agents', 'ok': True}, {'name': 'cache sample count and binary lengths', 'ok': True}, {'name': 'no global goal or assigned trajectories', 'ok': True}, {'name': 'observed angular bound', 'ok': True}, {'name': 'observed acceleration bound', 'ok': True}, {'name': 'no sphere penetration', 'ok': True}, {'name': 'subtitles fit 1760px', 'ok': True}, {'name': 'reading time >=2.5s', 'ok': True}, {'name': 'no fixed watermark', 'ok': True}, {'name': 'only actual local neighbors highlighted/linked', 'ok': True}]
+part_02.mp4 deterministic screenshot b3150834723b6d7f06483146190cb941a8914ec078d2fbe797d56b3e1a764be0

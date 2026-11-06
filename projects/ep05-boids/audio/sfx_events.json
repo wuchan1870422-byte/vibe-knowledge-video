@@ -1,0 +1,50 @@
+[
+  {
+    "time": 32.0,
+    "kind": "subtle rule contact",
+    "gain": 0.013,
+    "pan": 0
+  },
+  {
+    "time": 44.0,
+    "kind": "subtle rule contact",
+    "gain": 0.013,
+    "pan": 0
+  },
+  {
+    "time": 56.0,
+    "kind": "subtle rule contact",
+    "gain": 0.013,
+    "pan": 0
+  },
+  {
+    "time": 10.3,
+    "kind": "soft passing air",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 12.4,
+    "kind": "soft passing air",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 70.5,
+    "kind": "soft passing air",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 84.9,
+    "kind": "soft passing air",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 91.1,
+    "kind": "soft passing air",
+    "gain": 0.015,
+    "pan": 0
+  }
+]

@@ -1,0 +1,4 @@
+benchmark.mp4 all transition boundary samples passed
+benchmark.mp4: 0/90
+benchmark.mp4 [{'name': '3200 simulated agents', 'ok': True}, {'name': 'cache sample count and binary lengths', 'ok': True}, {'name': 'no global goal or assigned trajectories', 'ok': True}, {'name': 'observed angular bound', 'ok': True}, {'name': 'observed acceleration bound', 'ok': True}, {'name': 'no sphere penetration', 'ok': True}, {'name': 'subtitles fit 1760px', 'ok': True}, {'name': 'reading time >=2.5s', 'ok': True}, {'name': 'no fixed watermark', 'ok': True}, {'name': 'only actual local neighbors highlighted/linked', 'ok': True}]
+benchmark.mp4 deterministic screenshot 5db62b288b517b87b415a56fee7295a1cb281bb2ea7e924a1437468d685d020e

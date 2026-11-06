@@ -1,0 +1,42 @@
+{
+  "ep05-quality-report.md": {
+    "bytes": 5021,
+    "sha256": "048265baf8c87c0739ea1c2b250b6611cbbfb35e9b25729a6c580089b9869e1f"
+  },
+  "ep05-boids-source-private.zip": {
+    "bytes": 105478930,
+    "sha256": "f348729d94e4375b210038cabac6d0e9b47e98f619bb7f7640ff3d699e4196cd"
+  },
+  "ep05-picture-only.mp4": {
+    "bytes": 69188476,
+    "sha256": "ffd2d2bcc0f5f68bdcf81ad7c013180fda2269feea1b0e64519c11f3276366b3"
+  },
+  "ep05-boids-final.mp4": {
+    "bytes": 73181985,
+    "sha256": "853150b26ee740dbd79ff9b4f2dcd7d5f98947af797f96ed3994675fac4723ba"
+  },
+  "ep05-audio-stems-private.zip": {
+    "bytes": 35927678,
+    "sha256": "827bb23f4a560743d56a768752cb3ccec71746677ad7cbaebb55f2a221bd5c01"
+  },
+  "ep05-cover-portrait.jpg": {
+    "bytes": 291896,
+    "sha256": "f7bf4236d3cc550918e24c174d8230308ffe9c72816a6c4a9811264b6de62938"
+  },
+  "ep05-keyframes.jpg": {
+    "bytes": 420655,
+    "sha256": "ddc766b0c5a7f29d792a0ce325d8c0315c319db26e9fd32da61f9a54a4536160"
+  },
+  "ep05-boids-source.zip": {
+    "bytes": 98940689,
+    "sha256": "cb5826faec19995f9c24d0819a707021397ba5be82e1023ec0ba756a8e1f7168"
+  },
+  "ep05-cover-portrait.png": {
+    "bytes": 356767,
+    "sha256": "8c7d0a187e040d27ca2de01918409e0d2aa02c76585633ad20d0d078f7e21f72"
+  },
+  "ep05-cover-profile.jpg": {
+    "bytes": 275450,
+    "sha256": "7f4503c4081912cf30d83a181e1da97ea7c2097c5e71683f44f09cd487b60364"
+  }
+}

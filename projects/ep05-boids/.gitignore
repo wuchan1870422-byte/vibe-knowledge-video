@@ -1,0 +1,18 @@
+/render/
+/delivery/
+/review/*/
+/fonts/*.ttc
+/fonts/*.ttf
+/audio/*.wav
+/audio/*.m4a
+/sim/boids
+/sim/replay.bin
+/sim/focus.bin
+
+# 内部合成层诊断留在工作区
+/review/debug-*
+/review/encoded-*
+/review/raw-captured*
+/review/captured-frame*
+/review/*-crop.png
+/review/tail-*

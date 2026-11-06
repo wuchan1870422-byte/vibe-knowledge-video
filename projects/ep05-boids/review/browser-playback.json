@@ -1,0 +1,55 @@
+{
+  "html5_playback": "passed",
+  "initial": {
+    "duration": 125,
+    "width": 1920,
+    "height": 1080,
+    "played_to": 0.615398,
+    "readyState": 4,
+    "error": null
+  },
+  "seeks": [
+    {
+      "time": 2,
+      "readyState": 4
+    },
+    {
+      "time": 16,
+      "readyState": 4
+    },
+    {
+      "time": 31.5,
+      "readyState": 4
+    },
+    {
+      "time": 44,
+      "readyState": 4
+    },
+    {
+      "time": 57,
+      "readyState": 4
+    },
+    {
+      "time": 72,
+      "readyState": 4
+    },
+    {
+      "time": 85,
+      "readyState": 4
+    },
+    {
+      "time": 95.5,
+      "readyState": 4
+    },
+    {
+      "time": 111,
+      "readyState": 4
+    },
+    {
+      "time": 123,
+      "readyState": 4
+    }
+  ],
+  "muted": true,
+  "human_listening_verified": false
+}

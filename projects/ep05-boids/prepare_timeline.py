@@ -1,0 +1,31 @@
+from pathlib import Path
+import json
+R=Path(__file__).resolve().parent
+subtitles=[
+ [1.6,6.1,'几千只鸟，突然一起转弯。','Thousands of birds turn together.'],
+ [7.0,11.4,'是谁发出了命令？','Who gave the command?'],
+ [13.1,17.8,'在这个模型里，它不用知道整支队伍在哪。','In this model, a bird need not know where the whole flock is.'],
+ [18.4,22.6,'只需要回应身边的伙伴。','It responds only to nearby companions.'],
+ [23.3,27.4,'这里的转弯，也受到环境边界影响。','Turning here is also influenced by the environmental boundary.'],
+ [30.8,34.8,'太近了，就让开一点。','Too close? Move a little apart.'],
+ [35.4,39.4,'第一条规则：分离。','Rule one: separation.'],
+ [42.8,47.0,'参考附近伙伴的飞行方向。','Match the directions of nearby companions.'],
+ [47.7,51.4,'第二条规则：对齐。','Rule two: alignment.'],
+ [54.8,59.1,'朝附近伙伴的中心，靠近一点。','Steer a little toward the center of nearby companions.'],
+ [59.7,64.3,'这是局部的中心，不是全队的目标。','A local center, not a target shared by the whole flock.'],
+ [66.1,70.5,'把三条规则，放回同一个群体。','Put all three rules back into one flock.'],
+ [71.2,75.5,'每一只，都只做局部调整。','Each bird makes only local adjustments.'],
+ [76.2,80.5,'合在一起，却出现了整体的秩序。','Together, an organized pattern appears.'],
+ [81.2,85.2,'这种整体性质，叫作“涌现”。','This collective property is called emergence.'],
+ [89.3,93.9,'前方出现障碍，附近的个体先改变方向。','An obstacle appears ahead; nearby birds turn first.'],
+ [94.6,98.9,'这里，新增了一条局部避障规则。','Here we add a local obstacle-avoidance rule.'],
+ [99.6,104.2,'局部的变化，改变了整个群体的形状。','Local changes reshape the flock.'],
+ [105.0,108.9,'它们继续观察邻居，也继续调整。','They keep observing neighbors and adjusting.'],
+ [110.1,114.6,'复杂的整体行为，','Complex collective behavior'],
+ [115.2,120.3,'可以从简单的局部互动中产生。','can emerge from simple local interactions.'],
+]
+(R/'subtitles.json').write_text(json.dumps(subtitles,ensure_ascii=False,indent=2)+'\n')
+(R/'timeline.js').write_text('const DURATION=125;\nconst SUBTITLES='+json.dumps(subtitles,ensure_ascii=False)+';\n')
+lines=['# 第五期 · 字幕稿','','125秒；无旁白。保留群体纯画面和规则动作先行的时间；不要求中途确认。','','| 秒 | 中文字幕 | English |','|---|---|---|']
+lines.extend(f'|{a}–{b}|{zh}|{en}|' for a,b,zh,en in subtitles)
+(R/'script.md').write_text('\n'.join(lines)+'\n')

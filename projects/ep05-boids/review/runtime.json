@@ -1,0 +1,23 @@
+{
+  "python_packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "Pillow": "13.0.0",
+    "playwright": "1.62.0",
+    "fonttools": "4.61.1"
+  },
+  "chromium": "Chromium 155.0.8059.79 built on Debian GNU/Linux 13 (trixie)",
+  "ffmpeg_first_line": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "g++_first_line": "g++ (Debian 14.2.0-19) 14.2.0",
+  "renderer": "WebGL/SwiftShader, Three.js r160",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "world_viewport": [
+    1920,
+    900
+  ],
+  "integration_hz": 60,
+  "render_fps": 30
+}

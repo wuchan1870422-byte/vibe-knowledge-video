@@ -1,0 +1,85 @@
+{
+  "count": 3200,
+  "integration_hz": 60,
+  "cache_hz": 7.5,
+  "cache_frames": 939,
+  "focus_id": 1591,
+  "native_focus_minimum_neighbor_distance": {
+    "12-28s": 1.806408166885376,
+    "65-72s": 1.8003093004226685
+  },
+  "max_cache_displacement": 1.5388245582580566,
+  "max_native_neighbor_distance": 5.018986701965332,
+  "minimum_cached_sphere_clearance": 3.101186075212281,
+  "minimum_native_sphere_clearance": 3.09675,
+  "observed_max_acceleration": 12,
+  "observed_max_turn_rad_s": 0.9,
+  "independent_kd_checks": [
+    {
+      "time_s": 12,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 4.457832336425781,
+      "cache_kth_distance": 4.461067478404132
+    },
+    {
+      "time_s": 16,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 4.171402931213379,
+      "cache_kth_distance": 4.172818537964627
+    },
+    {
+      "time_s": 20,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 4.008667945861816,
+      "cache_kth_distance": 4.008809878333594
+    },
+    {
+      "time_s": 24,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 3.92122745513916,
+      "cache_kth_distance": 3.923679863581508
+    },
+    {
+      "time_s": 26,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 3.827005624771118,
+      "cache_kth_distance": 3.8268333280027367
+    },
+    {
+      "time_s": 66,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 3.7573630809783936,
+      "cache_kth_distance": 3.7568459645775336
+    },
+    {
+      "time_s": 68,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 3.638831615447998,
+      "cache_kth_distance": 3.640029793082915
+    },
+    {
+      "time_s": 70,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 3.5951039791107178,
+      "cache_kth_distance": 3.5952272778904395
+    },
+    {
+      "time_s": 92,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 3.4488837718963623,
+      "cache_kth_distance": 3.447658994022248
+    },
+    {
+      "time_s": 96,
+      "same_ids_after_quantization": true,
+      "max_native_neighbor_distance": 3.700086832046509,
+      "cache_kth_distance": 3.6980532911967683
+    }
+  ],
+  "replay_unchanged_after_focus_selection": true,
+  "replay_sha256": "ac6b54f88840ff57be0c56e6e83045669e771bd802259b545bef46a93969dfb6",
+  "focus_sha256": "a48d4a654959f177ccf42075092f6c9d7b7775812d7df50f6fe7a141b881fe85",
+  "no_global_goal": true,
+  "fixed_seed": 20261107,
+  "notes": "Point-agent Boids; wings are visual geometry, not full rigid-body collision. Native obstacle clearance measured at every integration step."
+}

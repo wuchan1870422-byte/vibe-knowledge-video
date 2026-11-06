@@ -1,0 +1,22 @@
+[
+  {
+    "time_s": 110,
+    "cyan_legend_pixels": 0,
+    "passed": true
+  },
+  {
+    "time_s": 111,
+    "cyan_legend_pixels": 0,
+    "passed": true
+  },
+  {
+    "time_s": 114,
+    "cyan_legend_pixels": 0,
+    "passed": true
+  },
+  {
+    "time_s": 119,
+    "cyan_legend_pixels": 0,
+    "passed": true
+  }
+]
