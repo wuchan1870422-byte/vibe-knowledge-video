@@ -1,0 +1,9 @@
+/render/
+/delivery/
+/review/*/
+/fonts/*.ttc
+/fonts/*.ttf
+/audio/*.wav
+/audio/*.m4a
+/review/debug-*
+/review/captured-*

@@ -1,0 +1,13 @@
+{
+  "frames_checked": 3750,
+  "unexpected_black_frames_before_end_fade": [],
+  "pts_max_interval_error_s": 6.666666773000318e-07,
+  "intentional_still_initial_state_seconds": [
+    12,
+    17
+  ],
+  "intentional_end_fade_seconds": [
+    124.5,
+    125
+  ]
+}

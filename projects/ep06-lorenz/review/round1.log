@@ -1,0 +1,3 @@
+round1 all transition boundary samples passed
+round1 [{'name': 'given initial states', 'ok': True}, {'name': 'double-precision RK4 .005 through 240 model units', 'ok': True}, {'name': 'repeat independent integration identical', 'ok': True}, {'name': 'no random perturbations', 'ok': True}, {'name': 'distance computed from both states', 'ok': True}, {'name': 'actual nonmonotone bounded distance curve', 'ok': True}, {'name': 'subtitles fit', 'ok': True}, {'name': 'reading duration', 'ok': True}, {'name': 'no persistent watermark', 'ok': True}]
+round1 deterministic screenshot 3bdaef434e8102b4d8d86038bd9b6fd023dc9c02c46bc855a91d2de8b8698cf7

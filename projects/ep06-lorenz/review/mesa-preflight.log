@@ -1,0 +1,3 @@
+mesa all transition boundary samples passed
+mesa [{'name': 'given initial states', 'ok': True}, {'name': 'double-precision RK4 .005 through 240 model units', 'ok': True}, {'name': 'repeat independent integration identical', 'ok': True}, {'name': 'no random perturbations', 'ok': True}, {'name': 'distance computed from both states', 'ok': True}, {'name': 'actual nonmonotone bounded distance curve', 'ok': True}, {'name': 'subtitles fit', 'ok': True}, {'name': 'reading duration', 'ok': True}, {'name': 'no persistent watermark', 'ok': True}]
+mesa deterministic screenshot 06ad9e52123b15ffd46214a1cf9dc6a10f80692d7b9d81a1781e2601aba54cad

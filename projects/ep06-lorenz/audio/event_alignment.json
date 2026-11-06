@@ -1,0 +1,82 @@
+[
+  {
+    "event": "magnify",
+    "video_second": 16.0,
+    "nearest_measured_onset_s": 16.253968253968253,
+    "offset_s": -0.25397,
+    "strength": 0.49078914523124695,
+    "aurally_verified": false
+  },
+  {
+    "event": "equations",
+    "video_second": 60.0,
+    "nearest_measured_onset_s": 59.79138321995465,
+    "offset_s": 0.20862,
+    "strength": 1.0193325281143188,
+    "aurally_verified": false
+  },
+  {
+    "event": "repeat",
+    "video_second": 69.0,
+    "nearest_measured_onset_s": 68.94004535147393,
+    "offset_s": 0.05995,
+    "strength": 1.3987234830856323,
+    "aurally_verified": false
+  },
+  {
+    "event": "actual_separation_scene",
+    "video_second": 41.689473684210526,
+    "nearest_measured_onset_s": 41.51727891156463,
+    "offset_s": 0.17219,
+    "strength": 0.4206008315086365,
+    "aurally_verified": false
+  },
+  {
+    "event": "history_reveal",
+    "video_second": 83.0,
+    "nearest_measured_onset_s": 82.8952380952381,
+    "offset_s": 0.10476,
+    "strength": 0.7604568600654602,
+    "aurally_verified": false
+  },
+  {
+    "event": "spatial_passage",
+    "video_second": 85.8,
+    "nearest_measured_onset_s": 85.72807256235828,
+    "offset_s": 0.07193,
+    "strength": 1.5967926979064941,
+    "aurally_verified": false
+  },
+  {
+    "event": "pullback",
+    "video_second": 96.5,
+    "nearest_measured_onset_s": 96.3395918367347,
+    "offset_s": 0.16041,
+    "strength": 0.4120144844055176,
+    "aurally_verified": false
+  },
+  {
+    "event": "opening_separation",
+    "video_second": 4.5,
+    "nearest_measured_onset_s": 4.435011337868481,
+    "offset_s": 0.06499,
+    "strength": 1.285033106803894,
+    "aurally_verified": false
+  },
+  {
+    "event": "deep_pass",
+    "video_second": 85.8,
+    "nearest_measured_onset_s": 85.72807256235828,
+    "offset_s": 0.07193,
+    "strength": 1.5967926979064941,
+    "aurally_verified": false
+  },
+  {
+    "event": "wide_reveal",
+    "video_second": 103,
+    "nearest_measured_onset_s": 102.79473922902494,
+    "offset_s": 0.20526,
+    "strength": 0.2978096604347229,
+    "aurally_verified": false
+  }
+]

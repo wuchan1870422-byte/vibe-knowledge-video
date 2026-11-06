@@ -1,0 +1,4 @@
+95 0.830922905000989
+103 0.7781641660003515
+95 0.773117294000258
+[{'name': 'given initial states', 'ok': True}, {'name': 'double-precision RK4 .005 through 240 model units', 'ok': True}, {'name': 'repeat independent integration identical', 'ok': True}, {'name': 'no random perturbations', 'ok': True}, {'name': 'distance computed from both states', 'ok': True}, {'name': 'actual nonmonotone bounded distance curve', 'ok': True}, {'name': 'subtitles fit', 'ok': True}, {'name': 'reading duration', 'ok': True}, {'name': 'no persistent watermark', 'ok': True}]

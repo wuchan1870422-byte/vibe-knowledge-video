@@ -1,0 +1,26 @@
+[
+  {
+    "model_time": 1,
+    "rk4_distance": 1.1159960202874306e-06,
+    "reference_distance": 1.1159957598138722e-06,
+    "relative_difference": 2.334001326964501e-07
+  },
+  {
+    "model_time": 5,
+    "rk4_distance": 1.2452695319402969e-06,
+    "reference_distance": 1.2452687040217219e-06,
+    "relative_difference": 6.64851346781334e-07
+  },
+  {
+    "model_time": 10,
+    "rk4_distance": 1.7575998474168498e-06,
+    "reference_distance": 1.7575971584216458e-06,
+    "relative_difference": 1.5299269181919889e-06
+  },
+  {
+    "model_time": 15,
+    "rk4_distance": 2.3780981201376635e-05,
+    "reference_distance": 2.3780552399613152e-05,
+    "relative_difference": 1.803161492115847e-05
+  }
+]

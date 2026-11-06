@@ -1,0 +1,21 @@
+{
+  "frame_count": 3750,
+  "fps": 30,
+  "video_duration_s": 125,
+  "renderer": "Chromium ANGLE gl-egl / Mesa llvmpipe; LP_NUM_THREADS=2",
+  "source_hashes": {
+    "index.html": "7cae1128dfcd94845ff02956686f9a24852c512ce3232c36d80a51bfa7b562ed",
+    "scenes.js": "1d3366c0c7bbb3f3ae18ba32a840759a44838c70a2f6efdd37f1d40d85e3189a",
+    "timeline.js": "d84b7e6f4644896384f95720ec2ffabca886c7d8694bb54efe79bf8b5be9aa53",
+    "subtitles.json": "9534f234cc0bd79a198e8c57a92930df1815a2d35d73b92208818ad8e8d19dd1",
+    "sim/meta.json": "fe32ddbd1235bb20be4b54da0d4b31b88e63a9cce442e8775a2a70e44232a5ca",
+    "sim/A.bin": "62d5d0f51045063ea5decf621c4ee0bd326ec4661882ddd3fb1b07133e9f9e3a",
+    "sim/B.bin": "434752cbd88681f3cdb435dee2e33296439c4cccd3145698fe1f7bff6b0755d9",
+    "sim/repeat_A.bin": "15e4da4b5c94acb410434c9f856186b57b253daa66899f8286515f8960663b26",
+    "sim/distance.bin": "dd49f18a5b1bad04ac69a22172054b16ba1da2e722d660702f8280a7e6758bd1",
+    "audio/analysis.json": "731e1e80ae443f0096230369420a0f0387ff6cacb77d947b44f44dd6d7feac96",
+    "audio/final_mix.m4a": "94a9b9901d909fa1b4a1721681f24747c41d501702bd8a9515d54fb47aa1c4bd"
+  },
+  "current_renderer_preflight": "review/mesa-preflight.log",
+  "drawing_data": "Double precision precomputed RK4, same model time for A and B"
+}

@@ -1,0 +1,20 @@
+{
+  "duration": "125.000000",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "frame_rate": "30/1",
+  "frames": "3750",
+  "video": "h264",
+  "audio": "aac",
+  "channels": 2,
+  "lufs_i": "-14.54",
+  "true_peak_dbtp": "-3.34",
+  "full_decode": "passed",
+  "one_second_samples": 125,
+  "persistent_label": "absent in source and reviewed frames",
+  "sha256": "09d2822b6051c9ec61e6837f1ae5f68931c8654cda6fef57fb32c74a8ceeeae3",
+  "bytes": 54493996,
+  "human_listening_verified": false
+}

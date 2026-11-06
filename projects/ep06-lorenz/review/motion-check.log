@@ -1,0 +1,44 @@
+[
+  {
+    "segment": "opening",
+    "start_s": 4.5,
+    "duration_s": 2,
+    "frames": 8,
+    "sheet": "review/final_motion/opening.jpg"
+  },
+  {
+    "segment": "separation",
+    "start_s": 41.2,
+    "duration_s": 2,
+    "frames": 8,
+    "sheet": "review/final_motion/separation.jpg"
+  },
+  {
+    "segment": "entry",
+    "start_s": 83,
+    "duration_s": 3,
+    "frames": 12,
+    "sheet": "review/final_motion/entry.jpg"
+  },
+  {
+    "segment": "inside",
+    "start_s": 94,
+    "duration_s": 2,
+    "frames": 8,
+    "sheet": "review/final_motion/inside.jpg"
+  },
+  {
+    "segment": "pullback",
+    "start_s": 101,
+    "duration_s": 3,
+    "frames": 12,
+    "sheet": "review/final_motion/pullback.jpg"
+  },
+  {
+    "segment": "ending",
+    "start_s": 123,
+    "duration_s": 1.9,
+    "frames": 8,
+    "sheet": "review/final_motion/ending.jpg"
+  }
+]

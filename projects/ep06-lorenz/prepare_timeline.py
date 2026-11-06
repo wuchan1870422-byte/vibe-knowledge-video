@@ -1,0 +1,33 @@
+from pathlib import Path
+import json
+R=Path(__file__).resolve().parent
+subs=[
+ [.8,3.4,'规则完全相同。','The rules are exactly the same.'],
+ [3.9,7.1,'起点，只差百万分之一。','The starting x values differ by one millionth.'],
+ [7.6,11.5,'后来，却走向了不同的位置。','Later, the states reach very different positions.'],
+ [13.1,17.3,'不是换了规则。','The rules have not changed.'],
+ [18.0,22.2,'只是起点，有一点点不同。','Only the initial state is slightly different.'],
+ [23.,27.7,'百万分之一，指的是初始 x 的数值差。','One millionth is the initial difference in x.'],
+ [30.6,34.2,'在这样的系统里，','In a system like this,'],
+ [34.8,39.7,'微小的初始差异，可能随时间被放大。','Tiny initial differences can grow with time.'],
+ [40.3,44.6,'看，它们逐渐走向了不同的位置。','Watch the two states gradually separate.'],
+ [45.2,49.5,'差异有时缩小，有时又扩大。','Their distance sometimes shrinks, then grows again.'],
+ [50.1,54.5,'它不会一直、无限地增长。','It does not grow forever without bound.'],
+ [55.1,59.5,'这片活动范围，仍然是有限的。','The trajectories still remain within a bounded region.'],
+ [60.8,65.3,'全程，都在使用同一套规则。','The same equations govern the entire evolution.'],
+ [69.0,72.8,'相同起点，相同规则，','The same initial state and the same rules'],
+ [73.4,77.3,'会得到相同的演化。','produce the same evolution.'],
+ [77.9,82.5,'困难在于：起点往往无法被无限精确地知道。','The difficulty is knowing the initial state with unlimited precision.'],
+ [85.0,89.8,'具体位置，可以变得难以长期预测。','Precise positions can become difficult to predict far ahead.'],
+ [94.0,98.8,'整体结构，却仍然存在。','The overall structure still remains.'],
+ [100.1,104.6,'洛伦兹吸引子。','The Lorenz attractor.'],
+ [108.6,112.,'这就是蝴蝶效应所强调的：','This is what the butterfly effect emphasizes:'],
+ [112.5,116.5,'某些系统里，极小的初始差异，','In some systems, tiny differences in initial conditions'],
+ [117.,121.,'可能带来显著不同的后续状态。','can lead to markedly different later states.'],
+ [121.5,124.8,'有规律，不等于容易长期预测。','Following rules does not make long-term prediction easy.']
+]
+(R/'subtitles.json').write_text(json.dumps(subs,ensure_ascii=False,indent=2)+'\n')
+(R/'timeline.js').write_text('const DURATION=125;\nconst SUBTITLES='+json.dumps(subs,ensure_ascii=False)+';\n')
+lines=['# 第六期 · 只差百万分之一，未来为什么会彻底不同？','','125秒，无旁白，固定原曲，中英字幕。最后只交付成片、封面与发布文案。','','|影片秒|中文|English|','|---|---|---|']
+lines.extend(f'|{a}–{b}|{zh}|{en}|' for a,b,zh,en in subs)
+(R/'script.md').write_text('\n'.join(lines)+'\n')

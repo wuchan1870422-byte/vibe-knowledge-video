@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "precision": "float64",
+  "step": 0.005,
+  "model_time_end": 240.0,
+  "same_initial_repeat_exact": true,
+  "all_distance_samples_match_states": true,
+  "all_binary_sha256_match": true,
+  "short_state_convergence_factors": [
+    30.057555676715634,
+    21.409559414874195
+  ],
+  "short_distance_reference_max_relative_error": 1.803161492115847e-05,
+  "first_distance_at_least_1": 25.21,
+  "distance_not_monotone": true,
+  "no_added_randomness": true,
+  "long_time_pointwise_agreement_not_assumed": true
+}

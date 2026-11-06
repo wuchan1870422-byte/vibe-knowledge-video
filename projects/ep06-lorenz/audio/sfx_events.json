@@ -1,0 +1,50 @@
+[
+  {
+    "time": 16.0,
+    "kind": "subtle demonstration accent",
+    "gain": 0.013,
+    "pan": 0
+  },
+  {
+    "time": 60.0,
+    "kind": "subtle demonstration accent",
+    "gain": 0.013,
+    "pan": 0
+  },
+  {
+    "time": 69.0,
+    "kind": "subtle demonstration accent",
+    "gain": 0.013,
+    "pan": 0
+  },
+  {
+    "time": 8.7,
+    "kind": "soft spatial passage",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 12.0,
+    "kind": "soft spatial passage",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 44.0,
+    "kind": "soft spatial passage",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 85.8,
+    "kind": "soft spatial passage",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 96.5,
+    "kind": "soft spatial passage",
+    "gain": 0.015,
+    "pan": 0
+  }
+]
