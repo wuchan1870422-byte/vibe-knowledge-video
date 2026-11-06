@@ -1,0 +1,1762 @@
+[
+  {
+    "id": "A-near-005",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 0,
+    "personIndex": 0
+  },
+  {
+    "id": "A-near-003",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 1,
+    "personIndex": 1
+  },
+  {
+    "id": "A-near-006",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 2,
+    "personIndex": 2
+  },
+  {
+    "id": "A-near-007",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 3,
+    "personIndex": 3
+  },
+  {
+    "id": "A-near-004",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 4,
+    "personIndex": 4
+  },
+  {
+    "id": "A-near-009",
+    "person": "A",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 5,
+    "personIndex": 5
+  },
+  {
+    "id": "A-near-008",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 6,
+    "personIndex": 6
+  },
+  {
+    "id": "A-near-002",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 7,
+    "personIndex": 7
+  },
+  {
+    "id": "A-near-001",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 8,
+    "personIndex": 8
+  },
+  {
+    "id": "A-near-000",
+    "person": "A",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 9,
+    "personIndex": 9
+  },
+  {
+    "id": "A-far-059",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 0,
+    "personIndex": 10
+  },
+  {
+    "id": "A-far-024",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 1,
+    "personIndex": 11
+  },
+  {
+    "id": "A-far-051",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 2,
+    "personIndex": 12
+  },
+  {
+    "id": "A-far-044",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 3,
+    "personIndex": 13
+  },
+  {
+    "id": "A-far-031",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 4,
+    "personIndex": 14
+  },
+  {
+    "id": "A-far-052",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 5,
+    "personIndex": 15
+  },
+  {
+    "id": "A-far-049",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 6,
+    "personIndex": 16
+  },
+  {
+    "id": "A-far-068",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 7,
+    "personIndex": 17
+  },
+  {
+    "id": "A-far-010",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 8,
+    "personIndex": 18
+  },
+  {
+    "id": "A-far-004",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 9,
+    "personIndex": 19
+  },
+  {
+    "id": "A-far-088",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 10,
+    "personIndex": 20
+  },
+  {
+    "id": "A-far-065",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 11,
+    "personIndex": 21
+  },
+  {
+    "id": "A-far-032",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 12,
+    "personIndex": 22
+  },
+  {
+    "id": "A-far-080",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 13,
+    "personIndex": 23
+  },
+  {
+    "id": "A-far-007",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 14,
+    "personIndex": 24
+  },
+  {
+    "id": "A-far-047",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 15,
+    "personIndex": 25
+  },
+  {
+    "id": "A-far-037",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 16,
+    "personIndex": 26
+  },
+  {
+    "id": "A-far-026",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 17,
+    "personIndex": 27
+  },
+  {
+    "id": "A-far-033",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 18,
+    "personIndex": 28
+  },
+  {
+    "id": "A-far-091",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 19,
+    "personIndex": 29
+  },
+  {
+    "id": "A-far-041",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 20,
+    "personIndex": 30
+  },
+  {
+    "id": "A-far-067",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 21,
+    "personIndex": 31
+  },
+  {
+    "id": "A-far-058",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 22,
+    "personIndex": 32
+  },
+  {
+    "id": "A-far-016",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 23,
+    "personIndex": 33
+  },
+  {
+    "id": "A-far-054",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 24,
+    "personIndex": 34
+  },
+  {
+    "id": "A-far-097",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 25,
+    "personIndex": 35
+  },
+  {
+    "id": "A-far-070",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 26,
+    "personIndex": 36
+  },
+  {
+    "id": "A-far-087",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 27,
+    "personIndex": 37
+  },
+  {
+    "id": "A-far-015",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 28,
+    "personIndex": 38
+  },
+  {
+    "id": "A-far-019",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 29,
+    "personIndex": 39
+  },
+  {
+    "id": "A-far-078",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 30,
+    "personIndex": 40
+  },
+  {
+    "id": "A-far-056",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 31,
+    "personIndex": 41
+  },
+  {
+    "id": "A-far-038",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 32,
+    "personIndex": 42
+  },
+  {
+    "id": "A-far-077",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 33,
+    "personIndex": 43
+  },
+  {
+    "id": "A-far-089",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 34,
+    "personIndex": 44
+  },
+  {
+    "id": "A-far-005",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 35,
+    "personIndex": 45
+  },
+  {
+    "id": "A-far-063",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 36,
+    "personIndex": 46
+  },
+  {
+    "id": "A-far-076",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 37,
+    "personIndex": 47
+  },
+  {
+    "id": "A-far-098",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 38,
+    "personIndex": 48
+  },
+  {
+    "id": "A-far-093",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 39,
+    "personIndex": 49
+  },
+  {
+    "id": "A-far-060",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 40,
+    "personIndex": 50
+  },
+  {
+    "id": "A-far-018",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 41,
+    "personIndex": 51
+  },
+  {
+    "id": "A-far-099",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 42,
+    "personIndex": 52
+  },
+  {
+    "id": "A-far-006",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 43,
+    "personIndex": 53
+  },
+  {
+    "id": "A-far-094",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 44,
+    "personIndex": 54
+  },
+  {
+    "id": "A-far-040",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 45,
+    "personIndex": 55
+  },
+  {
+    "id": "A-far-023",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 46,
+    "personIndex": 56
+  },
+  {
+    "id": "A-far-012",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 47,
+    "personIndex": 57
+  },
+  {
+    "id": "A-far-008",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 48,
+    "personIndex": 58
+  },
+  {
+    "id": "A-far-042",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 49,
+    "personIndex": 59
+  },
+  {
+    "id": "A-far-057",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 50,
+    "personIndex": 60
+  },
+  {
+    "id": "A-far-090",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 51,
+    "personIndex": 61
+  },
+  {
+    "id": "A-far-035",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 52,
+    "personIndex": 62
+  },
+  {
+    "id": "A-far-045",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 53,
+    "personIndex": 63
+  },
+  {
+    "id": "A-far-079",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 54,
+    "personIndex": 64
+  },
+  {
+    "id": "A-far-002",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 55,
+    "personIndex": 65
+  },
+  {
+    "id": "A-far-062",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 56,
+    "personIndex": 66
+  },
+  {
+    "id": "A-far-096",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 57,
+    "personIndex": 67
+  },
+  {
+    "id": "A-far-048",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 58,
+    "personIndex": 68
+  },
+  {
+    "id": "A-far-072",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 59,
+    "personIndex": 69
+  },
+  {
+    "id": "A-far-095",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 60,
+    "personIndex": 70
+  },
+  {
+    "id": "A-far-028",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 61,
+    "personIndex": 71
+  },
+  {
+    "id": "A-far-013",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 62,
+    "personIndex": 72
+  },
+  {
+    "id": "A-far-071",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 63,
+    "personIndex": 73
+  },
+  {
+    "id": "A-far-050",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 64,
+    "personIndex": 74
+  },
+  {
+    "id": "A-far-022",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 65,
+    "personIndex": 75
+  },
+  {
+    "id": "A-far-036",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 66,
+    "personIndex": 76
+  },
+  {
+    "id": "A-far-011",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 67,
+    "personIndex": 77
+  },
+  {
+    "id": "A-far-081",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 68,
+    "personIndex": 78
+  },
+  {
+    "id": "A-far-020",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 69,
+    "personIndex": 79
+  },
+  {
+    "id": "A-far-075",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 70,
+    "personIndex": 80
+  },
+  {
+    "id": "A-far-055",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 71,
+    "personIndex": 81
+  },
+  {
+    "id": "A-far-069",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 72,
+    "personIndex": 82
+  },
+  {
+    "id": "A-far-053",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 73,
+    "personIndex": 83
+  },
+  {
+    "id": "A-far-046",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 74,
+    "personIndex": 84
+  },
+  {
+    "id": "A-far-082",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 75,
+    "personIndex": 85
+  },
+  {
+    "id": "A-far-025",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 76,
+    "personIndex": 86
+  },
+  {
+    "id": "A-far-029",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 77,
+    "personIndex": 87
+  },
+  {
+    "id": "A-far-066",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 78,
+    "personIndex": 88
+  },
+  {
+    "id": "A-far-061",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 79,
+    "personIndex": 89
+  },
+  {
+    "id": "A-far-084",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 80,
+    "personIndex": 90
+  },
+  {
+    "id": "A-far-073",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 81,
+    "personIndex": 91
+  },
+  {
+    "id": "A-far-009",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 82,
+    "personIndex": 92
+  },
+  {
+    "id": "A-far-086",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 83,
+    "personIndex": 93
+  },
+  {
+    "id": "A-far-064",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 84,
+    "personIndex": 94
+  },
+  {
+    "id": "A-far-030",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 85,
+    "personIndex": 95
+  },
+  {
+    "id": "A-far-000",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 86,
+    "personIndex": 96
+  },
+  {
+    "id": "A-far-043",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 87,
+    "personIndex": 97
+  },
+  {
+    "id": "A-far-092",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 88,
+    "personIndex": 98
+  },
+  {
+    "id": "A-far-074",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 89,
+    "personIndex": 99
+  },
+  {
+    "id": "A-far-039",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 90,
+    "personIndex": 100
+  },
+  {
+    "id": "A-far-021",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 91,
+    "personIndex": 101
+  },
+  {
+    "id": "A-far-017",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 92,
+    "personIndex": 102
+  },
+  {
+    "id": "A-far-034",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 93,
+    "personIndex": 103
+  },
+  {
+    "id": "A-far-027",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 94,
+    "personIndex": 104
+  },
+  {
+    "id": "A-far-014",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 95,
+    "personIndex": 105
+  },
+  {
+    "id": "A-far-003",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 96,
+    "personIndex": 106
+  },
+  {
+    "id": "A-far-083",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 97,
+    "personIndex": 107
+  },
+  {
+    "id": "A-far-001",
+    "person": "A",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 98,
+    "personIndex": 108
+  },
+  {
+    "id": "A-far-085",
+    "person": "A",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 99,
+    "personIndex": 109
+  },
+  {
+    "id": "B-near-024",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 0,
+    "personIndex": 0
+  },
+  {
+    "id": "B-near-038",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 1,
+    "personIndex": 1
+  },
+  {
+    "id": "B-near-045",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 2,
+    "personIndex": 2
+  },
+  {
+    "id": "B-near-037",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 3,
+    "personIndex": 3
+  },
+  {
+    "id": "B-near-054",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 4,
+    "personIndex": 4
+  },
+  {
+    "id": "B-near-044",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 5,
+    "personIndex": 5
+  },
+  {
+    "id": "B-near-002",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 6,
+    "personIndex": 6
+  },
+  {
+    "id": "B-near-016",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 7,
+    "personIndex": 7
+  },
+  {
+    "id": "B-near-025",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 8,
+    "personIndex": 8
+  },
+  {
+    "id": "B-near-039",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 9,
+    "personIndex": 9
+  },
+  {
+    "id": "B-near-068",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 10,
+    "personIndex": 10
+  },
+  {
+    "id": "B-near-095",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 11,
+    "personIndex": 11
+  },
+  {
+    "id": "B-near-075",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 12,
+    "personIndex": 12
+  },
+  {
+    "id": "B-near-012",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 13,
+    "personIndex": 13
+  },
+  {
+    "id": "B-near-064",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 14,
+    "personIndex": 14
+  },
+  {
+    "id": "B-near-094",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 15,
+    "personIndex": 15
+  },
+  {
+    "id": "B-near-081",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 16,
+    "personIndex": 16
+  },
+  {
+    "id": "B-near-079",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 17,
+    "personIndex": 17
+  },
+  {
+    "id": "B-near-080",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 18,
+    "personIndex": 18
+  },
+  {
+    "id": "B-near-006",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 19,
+    "personIndex": 19
+  },
+  {
+    "id": "B-near-085",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 20,
+    "personIndex": 20
+  },
+  {
+    "id": "B-near-069",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 21,
+    "personIndex": 21
+  },
+  {
+    "id": "B-near-033",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 22,
+    "personIndex": 22
+  },
+  {
+    "id": "B-near-031",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 23,
+    "personIndex": 23
+  },
+  {
+    "id": "B-near-027",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 24,
+    "personIndex": 24
+  },
+  {
+    "id": "B-near-089",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 25,
+    "personIndex": 25
+  },
+  {
+    "id": "B-near-017",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 26,
+    "personIndex": 26
+  },
+  {
+    "id": "B-near-015",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 27,
+    "personIndex": 27
+  },
+  {
+    "id": "B-near-096",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 28,
+    "personIndex": 28
+  },
+  {
+    "id": "B-near-057",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 29,
+    "personIndex": 29
+  },
+  {
+    "id": "B-near-035",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 30,
+    "personIndex": 30
+  },
+  {
+    "id": "B-near-048",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 31,
+    "personIndex": 31
+  },
+  {
+    "id": "B-near-076",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 32,
+    "personIndex": 32
+  },
+  {
+    "id": "B-near-028",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 33,
+    "personIndex": 33
+  },
+  {
+    "id": "B-near-022",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 34,
+    "personIndex": 34
+  },
+  {
+    "id": "B-near-008",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 35,
+    "personIndex": 35
+  },
+  {
+    "id": "B-near-077",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 36,
+    "personIndex": 36
+  },
+  {
+    "id": "B-near-098",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 37,
+    "personIndex": 37
+  },
+  {
+    "id": "B-near-029",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 38,
+    "personIndex": 38
+  },
+  {
+    "id": "B-near-067",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 39,
+    "personIndex": 39
+  },
+  {
+    "id": "B-near-023",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 40,
+    "personIndex": 40
+  },
+  {
+    "id": "B-near-005",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 41,
+    "personIndex": 41
+  },
+  {
+    "id": "B-near-001",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 42,
+    "personIndex": 42
+  },
+  {
+    "id": "B-near-041",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 43,
+    "personIndex": 43
+  },
+  {
+    "id": "B-near-003",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 44,
+    "personIndex": 44
+  },
+  {
+    "id": "B-near-007",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 45,
+    "personIndex": 45
+  },
+  {
+    "id": "B-near-010",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 46,
+    "personIndex": 46
+  },
+  {
+    "id": "B-near-020",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 47,
+    "personIndex": 47
+  },
+  {
+    "id": "B-near-063",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 48,
+    "personIndex": 48
+  },
+  {
+    "id": "B-near-086",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 49,
+    "personIndex": 49
+  },
+  {
+    "id": "B-near-065",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 50,
+    "personIndex": 50
+  },
+  {
+    "id": "B-near-034",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 51,
+    "personIndex": 51
+  },
+  {
+    "id": "B-near-078",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 52,
+    "personIndex": 52
+  },
+  {
+    "id": "B-near-073",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 53,
+    "personIndex": 53
+  },
+  {
+    "id": "B-near-000",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 54,
+    "personIndex": 54
+  },
+  {
+    "id": "B-near-087",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 55,
+    "personIndex": 55
+  },
+  {
+    "id": "B-near-043",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 56,
+    "personIndex": 56
+  },
+  {
+    "id": "B-near-060",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 57,
+    "personIndex": 57
+  },
+  {
+    "id": "B-near-062",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 58,
+    "personIndex": 58
+  },
+  {
+    "id": "B-near-099",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 59,
+    "personIndex": 59
+  },
+  {
+    "id": "B-near-042",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 60,
+    "personIndex": 60
+  },
+  {
+    "id": "B-near-084",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 61,
+    "personIndex": 61
+  },
+  {
+    "id": "B-near-014",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 62,
+    "personIndex": 62
+  },
+  {
+    "id": "B-near-032",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 63,
+    "personIndex": 63
+  },
+  {
+    "id": "B-near-011",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 64,
+    "personIndex": 64
+  },
+  {
+    "id": "B-near-093",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 65,
+    "personIndex": 65
+  },
+  {
+    "id": "B-near-019",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 66,
+    "personIndex": 66
+  },
+  {
+    "id": "B-near-088",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 67,
+    "personIndex": 67
+  },
+  {
+    "id": "B-near-021",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 68,
+    "personIndex": 68
+  },
+  {
+    "id": "B-near-053",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 69,
+    "personIndex": 69
+  },
+  {
+    "id": "B-near-040",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 70,
+    "personIndex": 70
+  },
+  {
+    "id": "B-near-070",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 71,
+    "personIndex": 71
+  },
+  {
+    "id": "B-near-055",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 72,
+    "personIndex": 72
+  },
+  {
+    "id": "B-near-072",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 73,
+    "personIndex": 73
+  },
+  {
+    "id": "B-near-026",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 74,
+    "personIndex": 74
+  },
+  {
+    "id": "B-near-074",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 75,
+    "personIndex": 75
+  },
+  {
+    "id": "B-near-092",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 76,
+    "personIndex": 76
+  },
+  {
+    "id": "B-near-018",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 77,
+    "personIndex": 77
+  },
+  {
+    "id": "B-near-052",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 78,
+    "personIndex": 78
+  },
+  {
+    "id": "B-near-051",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 79,
+    "personIndex": 79
+  },
+  {
+    "id": "B-near-056",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 80,
+    "personIndex": 80
+  },
+  {
+    "id": "B-near-061",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 81,
+    "personIndex": 81
+  },
+  {
+    "id": "B-near-071",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 82,
+    "personIndex": 82
+  },
+  {
+    "id": "B-near-059",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 83,
+    "personIndex": 83
+  },
+  {
+    "id": "B-near-050",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 84,
+    "personIndex": 84
+  },
+  {
+    "id": "B-near-058",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 85,
+    "personIndex": 85
+  },
+  {
+    "id": "B-near-036",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 86,
+    "personIndex": 86
+  },
+  {
+    "id": "B-near-091",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 87,
+    "personIndex": 87
+  },
+  {
+    "id": "B-near-082",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 88,
+    "personIndex": 88
+  },
+  {
+    "id": "B-near-004",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 89,
+    "personIndex": 89
+  },
+  {
+    "id": "B-near-009",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 90,
+    "personIndex": 90
+  },
+  {
+    "id": "B-near-046",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 91,
+    "personIndex": 91
+  },
+  {
+    "id": "B-near-030",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 92,
+    "personIndex": 92
+  },
+  {
+    "id": "B-near-097",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 93,
+    "personIndex": 93
+  },
+  {
+    "id": "B-near-083",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 94,
+    "personIndex": 94
+  },
+  {
+    "id": "B-near-090",
+    "person": "B",
+    "source": "near",
+    "hit": false,
+    "groupIndex": 95,
+    "personIndex": 95
+  },
+  {
+    "id": "B-near-013",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 96,
+    "personIndex": 96
+  },
+  {
+    "id": "B-near-047",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 97,
+    "personIndex": 97
+  },
+  {
+    "id": "B-near-066",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 98,
+    "personIndex": 98
+  },
+  {
+    "id": "B-near-049",
+    "person": "B",
+    "source": "near",
+    "hit": true,
+    "groupIndex": 99,
+    "personIndex": 99
+  },
+  {
+    "id": "B-far-003",
+    "person": "B",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 0,
+    "personIndex": 100
+  },
+  {
+    "id": "B-far-001",
+    "person": "B",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 1,
+    "personIndex": 101
+  },
+  {
+    "id": "B-far-007",
+    "person": "B",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 2,
+    "personIndex": 102
+  },
+  {
+    "id": "B-far-009",
+    "person": "B",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 3,
+    "personIndex": 103
+  },
+  {
+    "id": "B-far-008",
+    "person": "B",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 4,
+    "personIndex": 104
+  },
+  {
+    "id": "B-far-006",
+    "person": "B",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 5,
+    "personIndex": 105
+  },
+  {
+    "id": "B-far-002",
+    "person": "B",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 6,
+    "personIndex": 106
+  },
+  {
+    "id": "B-far-004",
+    "person": "B",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 7,
+    "personIndex": 107
+  },
+  {
+    "id": "B-far-005",
+    "person": "B",
+    "source": "far",
+    "hit": false,
+    "groupIndex": 8,
+    "personIndex": 108
+  },
+  {
+    "id": "B-far-000",
+    "person": "B",
+    "source": "far",
+    "hit": true,
+    "groupIndex": 9,
+    "personIndex": 109
+  }
+]

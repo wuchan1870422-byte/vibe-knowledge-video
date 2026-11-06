@@ -1,0 +1,52 @@
+{
+  "source": "user-provided illustrative data, not actual player records",
+  "groups": {
+    "A_near": {
+      "attempts": 10,
+      "hits": 9,
+      "rate_percent": "90.0"
+    },
+    "A_far": {
+      "attempts": 100,
+      "hits": 30,
+      "rate_percent": "30.0"
+    },
+    "B_near": {
+      "attempts": 100,
+      "hits": 80,
+      "rate_percent": "80.0"
+    },
+    "B_far": {
+      "attempts": 10,
+      "hits": 2,
+      "rate_percent": "20.0"
+    }
+  },
+  "totals": {
+    "A": {
+      "attempts": 110,
+      "hits": 39,
+      "rate_percent": "35.5",
+      "exact_rate": "39/110",
+      "near_share": "1/11",
+      "far_share": "10/11"
+    },
+    "B": {
+      "attempts": 110,
+      "hits": 82,
+      "rate_percent": "74.5",
+      "exact_rate": "41/55",
+      "near_share": "10/11",
+      "far_share": "1/11"
+    }
+  },
+  "checks": [
+    "four input groups counted exactly",
+    "220 unique immutable record identities",
+    "A and B each have 110 attempts",
+    "39/110 rounds to 35.5%; 82/110 rounds to 74.5%",
+    "A higher in both groups; B higher in aggregate",
+    "weighted aggregation equals total hits/total attempts",
+    "unweighted average of percentages rejected"
+  ]
+}

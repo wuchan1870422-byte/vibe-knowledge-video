@@ -1,0 +1,8 @@
+{
+  "source": "decoded final.mp4 mono fold-down at 12kHz",
+  "first_8s_rms_dbfs": -28.297826766967773,
+  "seconds_32_to_110_rms_dbfs": -11.136311531066895,
+  "sample_peak": 0.9373059272766113,
+  "samples_over_0_995": 0,
+  "human_listening_verified": false
+}

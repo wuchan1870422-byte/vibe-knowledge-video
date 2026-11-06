@@ -1,0 +1,42 @@
+{
+  "ep04-cover-profile.jpg": {
+    "bytes": 207824,
+    "sha256": "2909c2ff641a6815ea61c3ef16f3428b357307ea01b59bc3cf381466c7540dbc"
+  },
+  "ep04-cover-portrait.jpg": {
+    "bytes": 221635,
+    "sha256": "f3d1ffdbed8f5a04d1cdc2f211c84a1ef4fa87e12312732ded37b654a709101c"
+  },
+  "ep04-keyframes.jpg": {
+    "bytes": 432710,
+    "sha256": "9e0a55b790298581c8fb55842e0e29e06fef3093ae0d727bd9c763cbf9e52df7"
+  },
+  "ep04-picture-only.mp4": {
+    "bytes": 12276419,
+    "sha256": "0f57ba3b95dc0e9adf23d8690709adfdc2251f8b22a0241bb48c9ef1377eaa18"
+  },
+  "ep04-simpson-source-private.zip": {
+    "bytes": 62144625,
+    "sha256": "2078af497c8d5e080b7cd00f774ad2f12fc1c17c534a4de7fbf35e6a7f382ec8"
+  },
+  "ep04-quality-report.md": {
+    "bytes": 4796,
+    "sha256": "8357ba4816c1e3a7bb7013d263766b3b03e6da13b28a8d86849561a8bf20ea45"
+  },
+  "ep04-audio-stems-private.zip": {
+    "bytes": 34851832,
+    "sha256": "f0947a3fffaf7b2ac0a941d8e51a7fb600b1ee1a928a8df9fac0c47c04e6e6dc"
+  },
+  "ep04-cover-portrait.png": {
+    "bytes": 650519,
+    "sha256": "0a8773220bd63ee7e4713b0256e8cafe877b3f1f4ae7ee9d18297dd3db6a16b2"
+  },
+  "ep04-simpson-source.zip": {
+    "bytes": 55606384,
+    "sha256": "4fd8d561af5d9558ec216f71ff79744a1b4f17ce079a0bce99f8ec6e6c58049d"
+  },
+  "ep04-simpson-final.mp4": {
+    "bytes": 16034258,
+    "sha256": "0cd9d6f0a0a11189754ef551dca4f966758b5ef2ad8360db2e1e9d2e9ecf70f7"
+  }
+}

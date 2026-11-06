@@ -1,0 +1,139 @@
+{
+  "file": "assets/audio/default_bgm/We_Never_Remix_0.9x_\u5f00\u667a\u5c0f\u66f2.mp3",
+  "sha256": "dbd4f093fc157373aba99649111e21083c8e8ce94e5073bfebdff160a59a82ca",
+  "duration_s": 182.72,
+  "playback_speed": 1,
+  "tempo_candidates": [
+    {
+      "bpm": 112.347,
+      "score": 0.658
+    },
+    {
+      "bpm": 73.828,
+      "score": 0.5454
+    },
+    {
+      "bpm": 89.103,
+      "score": -0.0054
+    },
+    {
+      "bpm": 151.999,
+      "score": -0.0081
+    }
+  ],
+  "folded_bpm_estimate": 111.625,
+  "first_grid_beat_s": 0.1343784994400896,
+  "meter": "4/4 candidate only; not aurally verified",
+  "rms_loudest_second": 158,
+  "energy_sections": [
+    {
+      "start_s": 0,
+      "rms": 0.14241,
+      "video_start_s": 0
+    },
+    {
+      "start_s": 10,
+      "rms": 0.13635,
+      "video_start_s": 10
+    },
+    {
+      "start_s": 20,
+      "rms": 0.18957,
+      "video_start_s": 20
+    },
+    {
+      "start_s": 30,
+      "rms": 0.18629,
+      "video_start_s": 30
+    },
+    {
+      "start_s": 40,
+      "rms": 0.1797,
+      "video_start_s": 40
+    },
+    {
+      "start_s": 50,
+      "rms": 0.18421,
+      "video_start_s": 50
+    },
+    {
+      "start_s": 60,
+      "rms": 0.18155,
+      "video_start_s": 60
+    },
+    {
+      "start_s": 70,
+      "rms": 0.18698,
+      "video_start_s": 70
+    },
+    {
+      "start_s": 80,
+      "rms": 0.17771,
+      "video_start_s": 80
+    },
+    {
+      "start_s": 90,
+      "rms": 0.15308,
+      "video_start_s": 90
+    },
+    {
+      "start_s": 100,
+      "rms": 0.16363,
+      "video_start_s": 100
+    },
+    {
+      "start_s": 110,
+      "rms": 0.18232,
+      "video_start_s": 110
+    },
+    {
+      "start_s": 120,
+      "rms": 0.18998,
+      "video_start_s": 120
+    },
+    {
+      "start_s": 130,
+      "rms": 0.19198,
+      "video_start_s": 130
+    },
+    {
+      "start_s": 140,
+      "rms": 0.20327,
+      "video_start_s": 140
+    },
+    {
+      "start_s": 150,
+      "rms": 0.20503,
+      "video_start_s": 150
+    },
+    {
+      "start_s": 160,
+      "rms": 0.18366,
+      "video_start_s": 160
+    },
+    {
+      "start_s": 170,
+      "rms": 0.09379,
+      "video_start_s": 170
+    },
+    {
+      "start_s": 180,
+      "rms": 0.03591,
+      "video_start_s": 180
+    }
+  ],
+  "source_in_s": 0,
+  "video_in_s": 0,
+  "human_listening_verified": false,
+  "source_out_s": 118,
+  "rms_loudest_video_second": null,
+  "video_duration_s": 118,
+  "revision": "ep04-reuse-ep03-v2-quiet-intro",
+  "intro_gain_envelope": {
+    "0_to_4_s": 0.15,
+    "12_s": 0.32,
+    "24_s": 0.7,
+    "32_s_and_later": 1.0
+  },
+  "analysis_reused_for_identical_sha256": true
+}

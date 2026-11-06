@@ -1,0 +1,62 @@
+[
+  {
+    "time": 22.0,
+    "kind": "soft record contact",
+    "gain": 0.024,
+    "pan": 0
+  },
+  {
+    "time": 35.0,
+    "kind": "soft record contact",
+    "gain": 0.024,
+    "pan": 0
+  },
+  {
+    "time": 48.0,
+    "kind": "soft record contact",
+    "gain": 0.024,
+    "pan": 0
+  },
+  {
+    "time": 56.0,
+    "kind": "soft record contact",
+    "gain": 0.024,
+    "pan": 0
+  },
+  {
+    "time": 63.0,
+    "kind": "soft record contact",
+    "gain": 0.024,
+    "pan": 0
+  },
+  {
+    "time": 73.0,
+    "kind": "soft record contact",
+    "gain": 0.024,
+    "pan": 0
+  },
+  {
+    "time": 96.0,
+    "kind": "soft record contact",
+    "gain": 0.024,
+    "pan": 0
+  },
+  {
+    "time": 48.0,
+    "kind": "gentle grouping movement",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 70.0,
+    "kind": "gentle grouping movement",
+    "gain": 0.015,
+    "pan": 0
+  },
+  {
+    "time": 96.0,
+    "kind": "gentle grouping movement",
+    "gain": 0.015,
+    "pan": 0
+  }
+]

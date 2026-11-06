@@ -1,0 +1,44 @@
+[
+  {
+    "video_second": 5,
+    "source_expected_second": 5,
+    "correlation": 0.9980758653859048,
+    "time_offset_s": 0.0
+  },
+  {
+    "video_second": 20,
+    "source_expected_second": 20,
+    "correlation": 0.9996139369002364,
+    "time_offset_s": 0.0
+  },
+  {
+    "video_second": 40,
+    "source_expected_second": 40,
+    "correlation": 0.9999949238394481,
+    "time_offset_s": 0.0
+  },
+  {
+    "video_second": 60,
+    "source_expected_second": 60,
+    "correlation": 0.999997508323418,
+    "time_offset_s": 0.0
+  },
+  {
+    "video_second": 80,
+    "source_expected_second": 80,
+    "correlation": 0.9999976520505469,
+    "time_offset_s": 0.0
+  },
+  {
+    "video_second": 100,
+    "source_expected_second": 100,
+    "correlation": 0.9999919756121749,
+    "time_offset_s": 0.0
+  },
+  {
+    "video_second": 110,
+    "source_expected_second": 110,
+    "correlation": 0.9999953036000786,
+    "time_offset_s": 0.0
+  }
+]

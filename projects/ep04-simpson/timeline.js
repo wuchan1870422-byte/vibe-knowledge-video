@@ -1,0 +1,11 @@
+const DURATION=118;
+const SUBTITLES=[[0.6, 4.3, "近投，A更准。", "At close range, A is more accurate."], [5.1, 8.7, "远投，还是A更准。", "From farther away, A is still more accurate."], [9.3, 12.9, "那总命中率，谁更高？", "Whose overall shooting percentage is higher?"], [14.2, 17.8, "怎么反过来了？", "How did the ranking reverse?"], [18.2, 21.5, "先把每一次出手，摊开来看。", "Let us lay out every attempt."], [22.3, 25.9, "近投，A是90%，B是80%。", "Close range: A 90%, B 80%."], [26.3, 29.9, "实心表示命中，空心表示未命中。", "Filled means a make. Hollow means a miss."], [30.3, 34.2, "这组，A的命中率确实更高。", "A really does have the higher rate in this group."], [35.3, 39.1, "远投，A是30%，B是20%。", "Long range: A 30%, B 20%."], [39.5, 43.0, "这组，仍然是A更高。", "A is higher in this group too."], [43.4, 46.0, "两个人，都有近投和远投记录。", "Both players have records at both distances."], [47.0, 50.9, "记录在移动，命中不会改变。", "The records move; their outcomes do not change."], [51.3, 55.3, "同一批出手，一次也不增减。", "The same attempts. None added or removed."], [56.3, 59.8, "总命中率，是总命中除以总出手。", "Overall rate is total makes divided by total attempts."], [60.2, 63.1, "A：39除以110，约35.5%。", "A: 39 divided by 110, about 35.5%."], [63.5, 67.1, "B：82除以110，约74.5%。", "B: 82 divided by 110, about 74.5%."], [67.4, 70.9, "不能把两个命中率直接平均。", "Do not simply average the two percentages."], [71.3, 74.9, "把近投和远投，再分开看看。", "Separate the two distances once more."], [75.3, 79.8, "A大部分出手，是较难命中的远投。", "Most of A’s attempts are the harder, long-range shots."], [80.2, 84.8, "B大部分出手，是较易命中的近投。", "Most of B’s attempts are the easier, close-range shots."], [85.2, 89.2, "总命中率，既取决于每组有多准，", "The overall rate depends on the rate within each group"], [89.6, 94.1, "也取决于每组的出手占多大比例。", "and on how large a share each group contributes."], [96.3, 99.8, "这就是辛普森悖论。", "This is Simpson’s paradox."], [100.4, 103.8, "看到一个总平均，先问一句：", "When you see an overall average, first ask:"], [104.2, 108.0, "里面混合了哪些不同情况？", "Which different situations have been mixed together?"], [108.4, 113.0, "该看总体还是分组，要看你想回答什么问题。", "Whether to use totals or groups depends on your question."], [114.0, 117.8, "仅凭这些记录，不能断言谁球技更强。", "These records alone do not establish who is truly more skilled."]];
+const EVENTS={
+  "near": 22.0,
+  "far": 35.0,
+  "merge": 48.0,
+  "formula_a": 56.0,
+  "formula_b": 63.0,
+  "weights": 73.0,
+  "name": 96.0
+};
