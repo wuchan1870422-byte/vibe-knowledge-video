@@ -1,0 +1,68 @@
+[
+  {
+    "time": 2.1,
+    "kind": "soft route-switch contact",
+    "gain": 0.025,
+    "pan": 0
+  },
+  {
+    "time": 16.066666666666666,
+    "kind": "soft route-switch contact",
+    "gain": 0.022,
+    "pan": 0
+  },
+  {
+    "time": 31.133333333333333,
+    "kind": "soft route-switch contact",
+    "gain": 0.038,
+    "pan": 0
+  },
+  {
+    "time": 44.03333333333333,
+    "kind": "soft route-switch contact",
+    "gain": 0.022,
+    "pan": 0
+  },
+  {
+    "time": 65.0,
+    "kind": "soft route-switch contact",
+    "gain": 0.032,
+    "pan": 0
+  },
+  {
+    "time": 83.0,
+    "kind": "soft route-switch contact",
+    "gain": 0.036,
+    "pan": 0
+  },
+  {
+    "time": 96.4,
+    "kind": "soft route-switch contact",
+    "gain": 0.028,
+    "pan": 0
+  },
+  {
+    "time": 31.0,
+    "kind": "subtle transition air",
+    "gain": 0.018,
+    "pan": 0
+  },
+  {
+    "time": 65.0,
+    "kind": "subtle transition air",
+    "gain": 0.018,
+    "pan": 0
+  },
+  {
+    "time": 83.0,
+    "kind": "subtle transition air",
+    "gain": 0.018,
+    "pan": 0
+  },
+  {
+    "time": 96.4,
+    "kind": "subtle transition air",
+    "gain": 0.018,
+    "pan": 0
+  }
+]

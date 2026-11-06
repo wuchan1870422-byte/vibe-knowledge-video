@@ -1,0 +1,38 @@
+{
+  "ep03-braess-source.zip": {
+    "bytes": 62709470,
+    "sha256": "6198af1c887e9efc0673ed319cf4ac4192a4bc6feaf9aade3f3a892c06d4cd1c"
+  },
+  "ep03-braess-final.mp4": {
+    "bytes": 23553625,
+    "sha256": "ca5d86ba23196615ddc4186c1aac2fffe370a16a016572b12494e3e7a1ac6f8a"
+  },
+  "ep03-cover-profile.jpg": {
+    "bytes": 178406,
+    "sha256": "a26ac93b827c9a6b6460e266476b88edc23d6bd8b0c03caa0c4f331ed87769d6"
+  },
+  "ep03-picture-only.mp4": {
+    "bytes": 19767847,
+    "sha256": "f753e97f4921230b2105ebf58cd819a72a4a1de0c0366d83e2e0387d2a2abf5f"
+  },
+  "ep03-keyframes.jpg": {
+    "bytes": 537552,
+    "sha256": "8c5f2eafb2f4a2137fd3086b033f18b8c8c355327a2f991e0f6575431edef4bd"
+  },
+  "ep03-cover-portrait.jpg": {
+    "bytes": 195599,
+    "sha256": "bccc2d6ddcde3035105d506388b9e60a187c58d29ad5edee13ab0ff453a46e45"
+  },
+  "ep03-audio-stems.zip": {
+    "bytes": 36300259,
+    "sha256": "f9bd83348ef85f23ddead7f7f17ade1627db6dfd672dea635e69fca1adcb0d3f"
+  },
+  "ep03-cover-portrait.png": {
+    "bytes": 696544,
+    "sha256": "0958ac2f0bd7fc9d2cf641dc599b31d0a514d4df776099f4d304da51a91a8162"
+  },
+  "ep03-quality-report.md": {
+    "bytes": 4384,
+    "sha256": "3185a94981261940f159aa530e3f97729c9ef7c9fd219c08e6cfb7123de08193"
+  }
+}

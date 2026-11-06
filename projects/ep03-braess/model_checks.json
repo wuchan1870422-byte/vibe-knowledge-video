@@ -1,0 +1,114 @@
+{
+  "checks": "passed",
+  "demand": 4000,
+  "before": {
+    "shortcut_available": false,
+    "route_flows": {
+      "upper": 2000,
+      "lower": 2000,
+      "shortcut": 0
+    },
+    "edge_flows": {
+      "SA": 2000,
+      "AT": 2000,
+      "SB": 2000,
+      "BT": 2000,
+      "AB": 0
+    },
+    "edge_times": {
+      "SA": 20.0,
+      "AT": 45.0,
+      "SB": 45.0,
+      "BT": 20.0,
+      "AB": 0.0
+    },
+    "route_costs": {
+      "upper": 65.0,
+      "lower": 65.0,
+      "shortcut": null
+    }
+  },
+  "near_opening": {
+    "shortcut_available": true,
+    "route_flows": {
+      "upper": 1990,
+      "lower": 1990,
+      "shortcut": 20
+    },
+    "edge_flows": {
+      "SA": 2010,
+      "AT": 1990,
+      "SB": 1990,
+      "BT": 2010,
+      "AB": 20
+    },
+    "edge_times": {
+      "SA": 20.1,
+      "AT": 45.0,
+      "SB": 45.0,
+      "BT": 20.1,
+      "AB": 0.0
+    },
+    "route_costs": {
+      "upper": 65.1,
+      "lower": 65.1,
+      "shortcut": 40.2
+    }
+  },
+  "all_shortcut": {
+    "shortcut_available": true,
+    "route_flows": {
+      "upper": 0,
+      "lower": 0,
+      "shortcut": 4000
+    },
+    "edge_flows": {
+      "SA": 4000,
+      "AT": 0,
+      "SB": 0,
+      "BT": 4000,
+      "AB": 4000
+    },
+    "edge_times": {
+      "SA": 40.0,
+      "AT": 45.0,
+      "SB": 45.0,
+      "BT": 40.0,
+      "AB": 0.0
+    },
+    "route_costs": {
+      "upper": 85.0,
+      "lower": 85.0,
+      "shortcut": 80.0
+    }
+  },
+  "asymmetric_check": {
+    "shortcut_available": true,
+    "route_flows": {
+      "upper": 500,
+      "lower": 1500,
+      "shortcut": 2000
+    },
+    "edge_flows": {
+      "SA": 2500,
+      "AT": 500,
+      "SB": 1500,
+      "BT": 3500,
+      "AB": 2000
+    },
+    "edge_times": {
+      "SA": 25.0,
+      "AT": 45.0,
+      "SB": 45.0,
+      "BT": 35.0,
+      "AB": 0.0
+    },
+    "route_costs": {
+      "upper": 70.0,
+      "lower": 80.0,
+      "shortcut": 60.0
+    }
+  },
+  "migration_states_checked": 2001,
+  "particle_scale": "1 glyph ≈ 50 cars; migration is illustrative"
+}

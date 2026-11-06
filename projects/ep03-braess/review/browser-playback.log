@@ -1,0 +1,39 @@
+{
+  "html5_playback": "passed",
+  "initial": {
+    "duration": 118,
+    "width": 1920,
+    "height": 1080,
+    "played_to": 0.61964,
+    "readyState": 4,
+    "error": null
+  },
+  "seeks": [
+    {
+      "time": 21.5,
+      "readyState": 4
+    },
+    {
+      "time": 38,
+      "readyState": 4
+    },
+    {
+      "time": 66.5,
+      "readyState": 4
+    },
+    {
+      "time": 71,
+      "readyState": 4
+    },
+    {
+      "time": 91,
+      "readyState": 4
+    },
+    {
+      "time": 115,
+      "readyState": 4
+    }
+  ],
+  "muted": true,
+  "human_listening_verified": false
+}
